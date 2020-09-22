@@ -1,11 +1,13 @@
-# Unity for Woman
+# Unity for Women
 
-O repositório tem um tutorial, passo a passo, para fazer seu primeiro jogo em Unity3D
+O repositório tem um tutorial, passo a passo, para fazer seu primeiro jogo em Unity3D.
 
 
 # Objetivo
 
-# Telas do workshop
+O objetivo do workshop é percorrer pelas principais funcionalidades do Unity3D  em um jogo 2D. 
+
+Telas do workshop
 
 # Roadmap do tutorial
 
