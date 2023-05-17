@@ -51,7 +51,7 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    ### Câmera
    - Representa a perspectiva do jogador.
    - Pode-se alterar entre a perspectiva de jogador e developer com as abas “Game” e “Scene” na parte superior da tela 
-   - Clicando na câmera mostra a parte do ambiente que será mostrada no jogo (Também pode ser visto através da aba Game)
+   - Clicando na câmera mostra a parte do ambiente 3D que será mostrada no jogo (Também pode ser visto através da aba Game)
      
    ### Obejeto e Componente
    1. Para criar seu primeiro objeto:
