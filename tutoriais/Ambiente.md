@@ -21,8 +21,9 @@
       - Siga o processo normalmente
 
 ## Configurando o Unity Hub:
+Caso apareça a tela de licensa, você pode ativar uma licensa gratuita Unity Personal ou, se quiser, adquirir uma licensa de estudante universitário utilizando suas credenciais institucionais
    1. Clique em Installs > Install Editor ou Add
    2. Selecione a versão LTS(Long Term Support) mais recente
    3. Desselecione as outras opções
+   4. Remova versões anteriores anteriores caso nescessário
 
-Caso apareça a tela de licensa, você pode ativar uma licensa gratuita Unity Personal ou, se quiser, adquirir uma licensa de estudante universitário utilizando suas credenciais institucionais
