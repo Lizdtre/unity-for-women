@@ -46,14 +46,15 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    ### Câmera
    - Representa a perspectiva do jogador.
    - Pode-se alterar entre a perspectiva de jogador e developer com as abas “Game” e “Scene” na parte superior da tela 
-
+   - Clicando na câmera mostra a parte do ambiente que será mostrada no jogo (Também pode ser visto através da aba Game)
+     
    ### Obejeto e Componente
    1. Para criar seu primeiro objeto:
       - Na aba hierarquia à esquerda, clique com o botão direito e selecione 3D Object > Cube
 
    2. Para adicionar física ao seu objeto, utilizaremos um componente chamado RigidBody:
       - Clique no objeto para exibir seus componentes a aba “Inspector” na direita 
-      - Clique em “Add Component” no fim da aba.
+      - Clique em “Add Component” no fim da aba
       - Busque e adicione a opção RigidBody
 
 
