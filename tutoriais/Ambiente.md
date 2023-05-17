@@ -49,11 +49,11 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
 
    ### Obejeto e Componente
    1. Para criar seu primeiro objeto:
-     - Na aba hierarquia à esquerda, clique com o botão direito e selecione 3D Object > Cube
+      - Na aba hierarquia à esquerda, clique com o botão direito e selecione 3D Object > Cube
 
    2. Para adicionar física ao seu objeto, utilizaremos um componente chamado RigidBody:
-   - Clique no objeto para exibir seus componentes a aba “Inspector” na direita 
-   - Clique em “Add Component” no fim da aba.
-   - Busque e adicione a opção RigidBody
+      - Clique no objeto para exibir seus componentes a aba “Inspector” na direita 
+      - Clique em “Add Component” no fim da aba.
+      - Busque e adicione a opção RigidBody
 
 
