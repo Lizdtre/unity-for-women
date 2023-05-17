@@ -21,25 +21,25 @@
       - Siga o processo normalmente
 
 ## Configurando o Unity Hub:
-Caso apareça a tela de licensa, você pode ativar uma licensa gratuita Unity Personal ou, se quiser, adquirir uma licensa de estudante universitário utilizando suas credenciais institucionais
-   1. Clique em Installs > Install Editor ou Add
+Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity Personal ou, se quiser, adquirir uma licença de estudante universitário utilizando suas credenciais institucionais
+   1. Clique em Install > Install Editor ou Add
    2. Selecione a versão LTS(Long Term Support) mais recente
    3. Desselecione as outras opções
-   4. Remova versões anteriores anteriores caso nescessário
+   4. Remova versões anteriores anteriores caso necessário
 
 ## Criando um projeto Unity
    1. Clique em project > New project
-   2. Selecione o template 3D e nomie seu projeto como desejar
+   2. Selecione o template 3D e nomeie seu projeto como desejar
    3. clique em seu projeto recém criado para abri-lo
 
 
-## Plugin de Unit Hub para Visual Studio Code
-   1. Selecione na aba de extenções 
-   1. Pesquise e selecione o Unity Tolls na aba de extenção para baixa-lo 
+## Plugin de Unity Hub para Visual Studio Code
+   1. Selecione na aba de extensões 
+   1. Pesquise e selecione o Unity Tolls na aba de extensão para baixa-lo 
    2.
    3.
    
    ## Básicos do Unity
    1.
    2.
-   
+
