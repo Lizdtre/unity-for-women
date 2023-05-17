@@ -8,7 +8,7 @@
       ou 
    - https://unity.com/download
 
-2. Intalação
+2. Instalação
    1. Linux
       - Abra o terminal(ctrl + alt + T)
       - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
