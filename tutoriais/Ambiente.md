@@ -1,18 +1,27 @@
 # Configurando o ambiente:
 
-1. Baixe o Unity Hub
-- https://unity.com/pt/download
+## Adquirindo o Unity Hub
 
-ou 
-- https://unity.com/download
+1. Download
+   - https://unity.com/pt/download
 
-2. Faça a instalação
-   - Linux
-     - Abra o terminal(ctrl + alt + T)
-     - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
-     - Rode os comandos
-       - chmod +x UnityHub.appimage
-       - ./UnityHub.appimage
-   - Windows/MAC
-     - Execute o instalador
-     - Siga o processo normalmente
+      ou 
+   - https://unity.com/download
+
+2. Intalação
+2.1 Linux
+    - Abra o terminal(ctrl + alt + T)
+    - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
+    - Rode os comandos abaixo:
+      - chmod +x UnityHub.appimage
+      - ./UnityHub.appimage
+2.2 Windows/MAC
+    - Execute o instalador
+    - Siga o processo normalmente
+
+## Configurando o Unity Hub:
+   1. Clique em Installs > Install Editor ou Add
+   2. Selecione a versão LTS(Long Term Support) mais recente
+   3. Desselecione as outras opções
+
+Caso apareça a tela de licensa, você pode ativar uma licensa gratuita Unity Personal ou, se quiser, adquirir uma licensa de estudante universitário utilizando suas credenciais institucionais
