@@ -27,3 +27,7 @@ Caso apareça a tela de licensa, você pode ativar uma licensa gratuita Unity Pe
    3. Desselecione as outras opções
    4. Remova versões anteriores anteriores caso nescessário
 
+## Plugin de Unit Hub
+   1.
+   2.
+   3.
