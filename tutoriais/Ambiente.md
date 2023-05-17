@@ -62,4 +62,8 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
       - Clique em “Add Component” no fim da aba
       - Busque e adicione a opção RigidBody
 
-
+   ### Testar jogo
+   - Clique o botão play na parte superior para começar a execução do jogo.
+   - Você deverá observar o cubo criado caindo.
+   - Nos controles superiores, você pode pausar ou parar a execução (clicando novamente em play).
+   - Lembre-se de pará-la sempre antes de fazer modificações em objetos (ou elas poderão ser perdidas).
