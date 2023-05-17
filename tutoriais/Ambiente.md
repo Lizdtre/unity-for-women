@@ -10,15 +10,15 @@
 
 2. Intalação
    1. Linux
-    - Abra o terminal(ctrl + alt + T)
-    - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
-    - Rode os comandos abaixo:
-      - chmod +x UnityHub.appimage
-      - ./UnityHub.appimage
+      - Abra o terminal(ctrl + alt + T)
+        - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
+      - Rode os comandos abaixo:
+        - chmod +x UnityHub.appimage
+        - ./UnityHub.appimage
       
    2. Windows/MAC
-    - Execute o instalador
-    - Siga o processo normalmente
+      - Execute o instalador
+      - Siga o processo normalmente
 
 ## Configurando o Unity Hub:
    1. Clique em Installs > Install Editor ou Add
