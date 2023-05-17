@@ -41,8 +41,12 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    
    [Suporte para caso o VSCode não esteja mostrando sugestões de código para Unity](https://code.visualstudio.com/docs/other/unity)
  ## Básicos do Unity
+   ### Movimentos
+   
    ### Câmera
-   
+   - Representa a perspectiva do jogador.
+   - Pode-se alterar entre a perspectiva de jogador e developer com as abas “Game” e “Scene” na parte superior da tela 
+
    ### Obejeto e Componente
-   
+      
 
