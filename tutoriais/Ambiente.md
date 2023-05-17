@@ -40,6 +40,8 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    3.
    
    ## Básicos do Unity
-   1.
-   2.
+   ### Câmera
+   
+   ### Obejeto e Componente
+   
 
