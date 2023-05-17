@@ -11,7 +11,7 @@
 2. Intalação
    1. Linux
       - Abra o terminal(ctrl + alt + T)
-        - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
+      - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
       - Rode os comandos abaixo:
         - chmod +x UnityHub.appimage
         - ./UnityHub.appimage
