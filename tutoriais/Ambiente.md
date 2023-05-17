@@ -9,14 +9,14 @@
    - https://unity.com/download
 
 2. Intalação
-2. 1. Linux
+   1. Linux
     - Abra o terminal(ctrl + alt + T)
     - Acesse sua pasta de downloads (ou a pasta onde você fez o download do instalador) utilizando o comando cd
     - Rode os comandos abaixo:
       - chmod +x UnityHub.appimage
       - ./UnityHub.appimage
       
-2. 2. Windows/MAC
+   2. Windows/MAC
     - Execute o instalador
     - Siga o processo normalmente
 
