@@ -26,14 +26,17 @@
 Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity Personal ou, se quiser, adquirir uma licença de estudante universitário utilizando suas credenciais institucionais
    1. Clique em Install > Install Editor ou Add
    ![Install Editor no Unity Hub](https://cdn.discordapp.com/attachments/1105270961391030293/1109910774194905088/image.png)
-   2. Selecione a versão LTS(Long Term Support) mais recente
-   3. Desselecione as outras opções
+   
+   2. Selecione a versão LTS(Long Term Support) mais recente e clique Install
+   ![Seleção de versões para instalação](https://media.discordapp.net/attachments/1105270961391030293/1109911748972126269/image.png?width=642&height=440)
+   
+   3. Na tela de módulos, desselecione as outras opções caso necessário
    4. Remova versões anteriores anteriores caso necessário
 
 ## Criando um projeto Unity
    1. Clique em project > New project
    2. Selecione o template 3D e nomeie seu projeto como desejar
-   3. clique em seu projeto recém criado para abri-lo
+   3. Clique em seu projeto recém criado para abri-lo
 
 
 ## Plugin de Unity Hub para Visual Studio Code
@@ -66,7 +69,7 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
       - Busque e adicione a opção RigidBody
 
    ### Testar jogo
-   - Clique o botão play na parte superior para começar a execução do jogo.
-   - Você deverá observar o cubo criado caindo.
-   - Nos controles superiores, você pode pausar ou parar a execução (clicando novamente em play).
-   - Lembre-se de pará-la sempre antes de fazer modificações em objetos (ou elas poderão ser perdidas).
+   - Clique o botão play na parte superior para começar a execução do jogo
+   - Você deverá observar o cubo criado caindo
+   - Nos controles superiores, você pode pausar ou parar a execução (clicando novamente em play)
+   - Lembre-se de pará-la sempre antes de fazer modificações em objetos (ou elas poderão ser perdidas)
