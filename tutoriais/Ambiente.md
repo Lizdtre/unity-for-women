@@ -82,6 +82,7 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    ![Botões de teste do Unity](https://cdn.discordapp.com/attachments/1105270961391030293/1109935017037156402/image.png)
 
    - Você deverá observar o cubo criado caindo
+
    ![Gif mostrando o cubo caindo](https://cdn.discordapp.com/attachments/1105270961391030293/1109934430627307581/ezgif-4-0aeb8fc700.gif)
    
    - Nos controles superiores, você pode pausar ou parar a execução (clicando novamente em play)
