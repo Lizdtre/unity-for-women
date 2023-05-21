@@ -83,7 +83,7 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
 
    - Você deverá observar o cubo criado caindo
 
-      ![Gif mostrando o cubo caindo](https://cdn.discordapp.com/attachments/1105270961391030293/1109934430627307581/ezgif-4-0aeb8fc700.gif)
+      ![Gif mostrando o cubo caindo](https://cdn.discordapp.com/attachments/1105270961391030293/1109936388998180985/ezgif-4-afbe4d4c64.gif)
    
    - Nos controles superiores, você pode pausar ou parar a execução (clicando novamente em play)
    - Lembre-se de pará-la sempre antes de fazer modificações em objetos (ou elas poderão ser perdidas)
