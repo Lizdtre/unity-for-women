@@ -25,6 +25,7 @@
 ## Configurando o Unity Hub:
 Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity Personal ou, se quiser, adquirir uma licença de estudante universitário utilizando suas credenciais institucionais
    1. Clique em Install > Install Editor ou Add
+   ![Install Editor no Unity Hub](https://cdn.discordapp.com/attachments/1105270961391030293/1109910774194905088/image.png)
    2. Selecione a versão LTS(Long Term Support) mais recente
    3. Desselecione as outras opções
    4. Remova versões anteriores anteriores caso necessário
