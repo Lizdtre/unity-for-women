@@ -7,6 +7,8 @@
 
       ou 
    - https://unity.com/download
+   
+   ![Página de instalação do Unity Hub, com os links de download de cada OS](https://cdn.discordapp.com/attachments/1105270961391030293/1109909460933156984/image.png)
 
 2. Instalação
    1. Linux
