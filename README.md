@@ -19,10 +19,10 @@ Disponivel [aqui](./glossario.md)
 
 # Tutoriais
 
-[Configuração de Ambiente](../configurar-ambiente/tutoriais/README.md)
-[]()
-[]()
-[]()
-[]()
+[Configuração de ambiente](../configurar-ambiente/tutoriais)
+[Adicionar moedas](../adiciona-moedas/tutoriais)
+[Variação de inimigos](../variacao_inimigos/tutoriais)
+[Adicionar música](../adicionando_musica/tutoriais)
+[Animação de pulo](../animacao-pulo/tutoriais)
 
 # Como contribuir
