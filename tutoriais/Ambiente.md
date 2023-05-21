@@ -1,4 +1,4 @@
-# Configurando o ambiente:
+# Configurando o ambiente
 
 ## Adquirindo o Unity Hub
 
@@ -23,7 +23,7 @@
       - Siga o processo normalmente
 
 ## Configurando o Unity Hub:
-Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity Personal ou, se quiser, adquirir uma licença de estudante universitário utilizando suas credenciais institucionais
+⚠Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity Personal ou, se quiser, adquirir uma licença de estudante universitário utilizando suas credenciais institucionais
    1. Clique em Install > Install Editor ou Add
    ![Install Editor no Unity Hub](https://cdn.discordapp.com/attachments/1105270961391030293/1109910774194905088/image.png)
    
@@ -34,7 +34,7 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    4. Remova versões anteriores anteriores caso necessário
 
 ## Criando um projeto Unity
-   1. Clique em project > New project
+   1. Clique em Projects > New project
    ![Tela de projetos do Unity Hub](https://cdn.discordapp.com/attachments/1105270961391030293/1109920766948020335/image.png)
    
    2. Selecione o template 3D e nomeie seu projeto como desejar
@@ -46,8 +46,6 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
 ## Plugin de Unity Hub para Visual Studio Code
    1. Selecione na aba de extensões 
    2. Pesquise e selecione o Unity Tolls na aba de extensão para baixa-lo 
-   3.
-   4.
    
    [Suporte para caso o VSCode não esteja mostrando sugestões de código para Unity](https://code.visualstudio.com/docs/other/unity)
  ## Básicos do Unity
@@ -58,9 +56,8 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
 
    
    ### Câmera
-   - Representa a perspectiva do jogador.
    - Pode-se alterar entre a perspectiva de jogador e developer com as abas “Game” e “Scene” na parte superior da tela 
-   - Clicando na câmera mostra a parte do ambiente 3D que será mostrada no jogo (Também pode ser visto através da aba Game)
+   - Clicando no objeto câmera mostra a parte do ambiente 3D que será mostrada no jogo (Também pode ser visto através da aba "Game")
      
    ### Obejeto e Componente
    1. Para criar seu primeiro objeto:
@@ -69,7 +66,7 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
 ![Criando um cubo](https://cdn.discordapp.com/attachments/1105270961391030293/1109911523268231249/image.png)
 
    2. Para adicionar física ao seu objeto, utilizaremos um componente chamado RigidBody:
-      - Clique no objeto para exibir seus componentes a aba “Inspector” na direita 
+      - Clique no objeto para exibir seus componentes na aba “Inspector” na direita 
       - Clique em “Add Component” no fim da aba
       - Busque e adicione a opção RigidBody
 
@@ -77,13 +74,13 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
 
    ### Testar jogo
    - Olhe pela perspectiva de jogo para confirmar se o cubo está visível em tela
-     - Caso não esteja, clique no cubo na perspectiva de edição e utilize os controles de posição(setas coloridas) para movê-lo até estar em frente da camera
-   - Clique o botão play na parte superior para começar a execução do jogo
+     - Caso não esteja, clique no cubo na perspectiva de edição e utilize os controles de posição(setas coloridas) para movê-lo até estar na frente da câmera
+   - Clique no botão play na parte superior para começar a execução do jogo
    ![Botões de teste do Unity](https://cdn.discordapp.com/attachments/1105270961391030293/1109935017037156402/image.png)
 
    - Você deverá observar o cubo criado caindo
 
       ![Gif mostrando o cubo caindo](https://cdn.discordapp.com/attachments/1105270961391030293/1109936388998180985/ezgif-4-afbe4d4c64.gif)
    
-   - Nos controles superiores, você pode pausar ou parar a execução (clicando novamente em play)
-   - Lembre-se de pará-la sempre antes de fazer modificações em objetos (ou elas poderão ser perdidas)
+   - Nos controles superiores, você pode pausar ou parar a execução do jogo
+   - Lembre-se de pará-la sempre antes de modificar objetos ou componentes em cena, ou as modificações poderão ser perdidas
