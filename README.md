@@ -19,4 +19,10 @@ Disponivel [aqui](./glossario.md)
 
 # Tutoriais
 
+[Configuração de Ambiente](../configurar-ambiente/tutoriais/README.md)
+[]()
+[]()
+[]()
+[]()
+
 # Como contribuir
