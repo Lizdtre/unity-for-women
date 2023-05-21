@@ -35,8 +35,12 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
 
 ## Criando um projeto Unity
    1. Clique em project > New project
+   ![Tela de projetos do Unity Hub](https://cdn.discordapp.com/attachments/1105270961391030293/1109920766948020335/image.png)
+   
    2. Selecione o template 3D e nomeie seu projeto como desejar
-   3. Clique em seu projeto recém criado para abri-lo
+   ![Tela de novo projeto](https://cdn.discordapp.com/attachments/1105270961391030293/1109921388527099954/image.png)
+
+   3. Clique em seu projeto recém criado para abri-lo (pode demorar vários minutos)
 
 
 ## Plugin de Unity Hub para Visual Studio Code
@@ -48,9 +52,9 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    [Suporte para caso o VSCode não esteja mostrando sugestões de código para Unity](https://code.visualstudio.com/docs/other/unity)
  ## Básicos do Unity
    ### Movimentos
-   - Clique e segure com o botão direito enquanto move o mouse na tela interativa para movimentar a perspectiva lateralmente
+   - Clique e segure com o botão direito enquanto move o mouse na tela interativa para olhar em direções diferentes
    - Use a rodinha do mouse para movimentar-se para frente e para trás
-   - Apertar e segurar a rodinha do mouse permite movimentos mais dinâmicos
+   - Aperte e segure a rodinha do mouse para movimentar a perspectiva lateralmente
    - Segure Shift durante qualquer movimento para acelerá-lo
 
    
