@@ -54,8 +54,7 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    ### Movimentos
    - Clique e segure com o botão direito enquanto move o mouse na tela interativa para olhar em direções diferentes
    - Use a rodinha do mouse para movimentar-se para frente e para trás
-   - Aperte e segure a rodinha do mouse para movimentar a perspectiva lateralmente
-   - Segure Shift durante qualquer movimento para acelerá-lo
+   - Aperte e segure a rodinha do mouse para movimentar a perspectiva lateralmente (segure shift para acelerar)
 
    
    ### Câmera
