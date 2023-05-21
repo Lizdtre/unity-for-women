@@ -63,10 +63,14 @@ Caso apareça a tela de licença, você pode ativar uma licença gratuita Unity 
    1. Para criar seu primeiro objeto:
       - Na aba hierarquia à esquerda, clique com o botão direito e selecione 3D Object > Cube
 
+![Criando um cubo](https://cdn.discordapp.com/attachments/1105270961391030293/1109911523268231249/image.png)
+
    2. Para adicionar física ao seu objeto, utilizaremos um componente chamado RigidBody:
       - Clique no objeto para exibir seus componentes a aba “Inspector” na direita 
       - Clique em “Add Component” no fim da aba
       - Busque e adicione a opção RigidBody
+
+ ![Selecionando o RigidBody para o cubo](https://cdn.discordapp.com/attachments/1105270961391030293/1109911836217835662/image.png)
 
    ### Testar jogo
    - Clique o botão play na parte superior para começar a execução do jogo
