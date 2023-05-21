@@ -20,9 +20,14 @@ Disponivel [aqui](./glossario.md)
 # Tutoriais
 
 [Configuração de ambiente](../configurar-ambiente/tutoriais)
+
 [Adicionar moedas](../adiciona-moedas/tutoriais)
+
 [Variação de inimigos](../variacao_inimigos/tutoriais)
+
 [Adicionar música](../adicionando_musica/tutoriais)
+
 [Animação de pulo](../animacao-pulo/tutoriais)
+
 
 # Como contribuir
