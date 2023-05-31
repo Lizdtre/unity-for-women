@@ -39,4 +39,4 @@ Alguma alterações são:
 
 4. Scene rotation: Rotação da Cena (a sua perspectiva como desenvolvedor)
 
-!(Locais das alterações no unity)[https://media.discordapp.net/attachments/1105270961391030293/1113529412525240461/Object_shenags.png?width=916&height=473]
+![Locais das alterações no unity](https://media.discordapp.net/attachments/1105270961391030293/1113529412525240461/Object_shenags.png?width=916&height=473)
