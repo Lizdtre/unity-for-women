@@ -69,16 +69,17 @@ Algumas alterações são:
 
 ### Criação do jogador
 
-1. Crie um sprite
+1. Crie uma sprite
 
 2. Adicione o componente Rigidbody 2D
 
 3. Adicione também um Box Collider 2D
 
-4. Adicione um Box Collider 2D no objeto que guarda os chaos
+4. Adicione um Box Collider 2D no objeto que guarda os chãos
 
 5. Edite o collider para que fique igual ao contorno do chão (bottão Edit Collider)
 
+-IMAGEM DA HITBOX DO COLIDER NO CHAO-
 
 ⚠ Certifique-se que o player e o chão estão na mesma posição Z
 
@@ -88,7 +89,6 @@ Algumas alterações são:
 1. Clique em edit > project settings
 2. Na nova aba aberta, clique em input manager > Axes > Horizontal
 3. Configure os botões negativo e positivo como “a” e “d” respectivamente
-
 4. No objeto do jogador, adicione um novo componente “new script”
 5. Dê um nome distinto (ex.: PlayerMovement)
 
