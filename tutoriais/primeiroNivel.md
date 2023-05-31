@@ -124,7 +124,7 @@ transform.position += speed * Vector3.right;
 var inputX = Input.GetAxis("Horizontal");
 transform.position += inputX * speed * Vector3.right;
 
-```
+```c#
 
 transform.position += speed * Vector3.right;
 var inputX = Input.GetAxis("Horizontal");
