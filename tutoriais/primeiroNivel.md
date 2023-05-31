@@ -45,6 +45,7 @@ Algumas alterações são:
 
 2. Na aba project na parte inferior da tela, navegue até Assets > Part I > Scenes
    - Você verá uma cena chamada “Part I”, apague ela e crie uma nova (botão direito > Create > Scene) com o nome que desejar, em seguida abra-a
+
    ![Criação da cena nova](https://media.discordapp.net/attachments/1105270961391030293/1113525288752644107/image.png?width=514&height=412)
   
 3. Na aba Hierarchy, crie um objeto vazio (Create Empty)
