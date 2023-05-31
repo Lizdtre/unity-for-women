@@ -1,7 +1,7 @@
 # Criando seu primeiro nível
 ## Adquirindo assets
 
-Para esse tutorial, partiremos de um [projeto](https://github.com/Duerno/unity-for-women-at-unb) Unity que possui uma coleção de sprites prontos.
+Para esse tutorial, partiremos de um [projeto Unity](https://github.com/Duerno/unity-for-women-at-unb) que possui uma coleção de sprites prontos.
 
 1. Baixe o repositório e extraia o arquivo .zip
 
