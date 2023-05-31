@@ -52,6 +52,7 @@ Algumas alterações são:
 4. Com o novo objeto selecionado, adicione o componente sprite renderer
 
 5. Abra o explorador de sprites e selecione um sprite de chão
+
 ![Adicionando Sprite](https://cdn.discordapp.com/attachments/1105270961391030293/1113538683723841678/image.png)
 
 6. Para expandir o chão, crie cópias do objeto e alinha as cópias lado a lado
