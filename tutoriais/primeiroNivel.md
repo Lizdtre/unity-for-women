@@ -40,3 +40,25 @@ Alguma alterações são:
 4. Scene rotation: Rotação da Cena (a sua perspectiva como desenvolvedor)
 
 ![Locais das alterações no unity](https://media.discordapp.net/attachments/1105270961391030293/1113529412525240461/Object_shenags.png?width=916&height=473)
+
+
+### Criação do nível
+
+1. Clicando no objeto Cãmera, garanta que está em modo orthographic e que os objetos que você criar a seguir estão dentro do campo de visão dela, é recomendado também trocar a perspectiva de edição para modo 2d
+
+2. Na aba project na parte inferior da tela, navegue até Assets > Part I > Scenes
+   - Você verá uma cena chamada “Part I”, apague ela e crie uma nova (botão direito > Create > Scene) com o nome que desejar, em seguida abra-a
+
+3. Na aba Hierarchy, crie um objeto vazio (Create Empty)
+
+4. Com o novo objeto selecionado, adicione o componente sprite renderer
+
+5. Abra o explorador de sprites e selecione um sprite de chão
+
+6. Para expandir o chão, crie cópias do objeto e alinha as cópias lado a lado
+   - segurar ctrl pode facilitar o alinhamento
+
+7. Para organização, crie um objeto vazio que guardará todos os chãos, e os insira dentro desse objeto
+
+8. Adicione a parte subterrânea do chão para preencher a tela, da mesma forma como anteriormente
+
