@@ -127,21 +127,19 @@ transform.position += inputX * speed * Vector3.right;
 ```c#
 public class NewBehaviourScript : MonoBehaviour
 {
+
+public float speed = 0.0001f
     // Start is called before the first frame update
     void Start()
     {
-        var inputX = Input.GetAxis("Horizontal");
-	transform.position += inputX * speed * Vector3.right;
+     
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+           var inputX = Input.GetAxis("Horizontal");
+	transform.position += inputX * speed * Vector3.right;
     }
 }
-
-transform.position += speed * Vector3.right;
-
-
 ```
