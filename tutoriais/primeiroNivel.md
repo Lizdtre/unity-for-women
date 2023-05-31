@@ -56,9 +56,13 @@ Algumas alterações são:
 ![Adicionando Sprite](https://cdn.discordapp.com/attachments/1105270961391030293/1113538683723841678/image.png)
 
 6. Para expandir o chão, crie cópias do objeto e alinha as cópias lado a lado
-   - segurar ctrl pode facilitar o alinhamento
+   - Segurar Ctrl pode facilitar o alinhamento
+
+   ![Chão expandido](https://media.discordapp.net/attachments/1105270961391030293/1113539344284778676/image.png?width=704&height=412)
 
 7. Para organização, crie um objeto vazio que guardará todos os chãos, e os insira dentro desse objeto
+
+![Objeto Chão](https://media.discordapp.net/attachments/1105270961391030293/1113539931629961418/image.png?width=326&height=230)
 
 8. Adicione a parte subterrânea do chão para preencher a tela, da mesma forma como anteriormente
 
