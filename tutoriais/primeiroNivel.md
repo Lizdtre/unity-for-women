@@ -37,7 +37,7 @@ Algumas alterações são:
 ![Locais das alterações no unity](https://cdn.discordapp.com/attachments/1105270961391030293/1113538043568197715/Object_shenags.png)
 
 
-### Criação do nível
+## Criação do nível
 
 1. Clicando no objeto Câmera, garanta que está em modo orthographic e que os objetos que você criar a seguir estão dentro do campo de visão dela, é recomendado também trocar a perspectiva de edição para modo 2D
 
