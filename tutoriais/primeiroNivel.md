@@ -96,8 +96,8 @@ Algumas alterações são:
 - O script deve começar com letra maiúscula e não pode conter espaço 
 
 6. Abra o script recém criado
-   - O script padrão do unity contém:
-     - Void Start(): Função chamada no mesmo frame que o objeto que possui o script for instanciado
-     - Void Update(): Chamada todo frame subsequente
+- O script padrão do unity contém:
+  - Void Start(): Função chamada no mesmo frame que o objeto que possui o script for instanciado
+  - Void Update(): Chamada todo frame subsequente
 
 
