@@ -5,16 +5,11 @@ Para esse tutorial, partiremos de um [projeto](https://github.com/Duerno/unity-f
 
 1. Baixe o repositório e extraia o arquivo .zip
 
-–IMAGEM DOWNLOAD–
-
-–IMAGEM EXTRAÇÃO–
+![Download de repositório no Github](https://cdn.discordapp.com/attachments/1105270961391030293/1113536584994799676/image.png)
 
 2. Em seguida, no Unity Hub, na aba Projects, clique em add/open e selecione a pasta “workshop” dentro da pasta do repositório baixado
 
-–IMAGEM DOWNLOAD GITHGUB–
-
-–IMAGEM FILE EXPLORER–
-
+![Open em Unity Hub](https://cdn.discordapp.com/attachments/1105270961391030293/1113537054714908764/image.png)
 
 3. Selecione a versão 2019.4.9f1 LTS ou a versão mais próxima disponível
 4. Abra o projeto
