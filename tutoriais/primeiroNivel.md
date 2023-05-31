@@ -67,6 +67,8 @@ Algumas alterações são:
 
 8. Adicione a parte subterrânea do chão para preencher a tela, da mesma forma como anteriormente
 
+![Chão com subterrâneo](https://media.discordapp.net/attachments/1105270961391030293/1113542234986512487/image.png?width=731&height=408)
+
 ### Criação do jogador
 
 1. Crie uma sprite
