@@ -130,7 +130,8 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        var inputX = Input.GetAxis("Horizontal");
+	transform.position += inputX * speed * Vector3.right;
     }
 
     // Update is called once per frame
@@ -141,6 +142,6 @@ public class NewBehaviourScript : MonoBehaviour
 }
 
 transform.position += speed * Vector3.right;
-var inputX = Input.GetAxis("Horizontal");
-transform.position += inputX * speed * Vector3.right;
+
+
 ```
