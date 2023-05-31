@@ -125,7 +125,7 @@ var inputX = Input.GetAxis("Horizontal");
 transform.position += inputX * speed * Vector3.right;
 
 ```c#
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
 
 public float speed = 0.0001f
