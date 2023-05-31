@@ -67,3 +67,37 @@ Algumas alterações são:
 
 8. Adicione a parte subterrânea do chão para preencher a tela, da mesma forma como anteriormente
 
+### Criação do jogador
+
+1. Crie um sprite
+
+2. Adicione o componente Rigidbody 2D
+
+3. Adicione também um Box Collider 2D
+
+4. Adicione um Box Collider 2D no objeto que guarda os chaos
+
+5. Edite o collider para que fique igual ao contorno do chão (bottão Edit Collider)
+
+
+⚠ Certifique-se que o player e o chão estão na mesma posição Z
+
+
+### Movimentação de Jogador
+
+1. Clique em edit > project settings
+2. Na nova aba aberta, clique em input manager > Axes > Horizontal
+3. Configure os botões negativo e positivo como “a” e “d” respectivamente
+
+4. No objeto do jogador, adicione um novo componente “new script”
+5. Dê um nome distinto (ex.: PlayerMovement)
+
+⚠ Formatação para nome de script
+- O script deve começar com letra maiúscula e não pode conter espaço 
+
+6. Abra o script recém criado
+   - O script padrão do unity contém:
+     - Void Start(): Função chamada no mesmo frame que o objeto que possui o script for instanciado
+     - Void Update(): Chamada todo frame subsequente
+
+
