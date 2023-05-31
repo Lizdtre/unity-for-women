@@ -24,13 +24,13 @@ Para esse tutorial, partiremos de um [projeto](https://github.com/Duerno/unity-f
 ⚠Projeto tem que ter aberto em uma tela vazia
 
 
-### Alteração de um objeto dentro de uma cena
+### Alteração de um objeto numa cena
 
 - Cena engloba tudo que está renderizado(ativo) no unity
 - A alteração de um objeto pode ser feito dentro da cena ou na aba inspector 
 - Algumas propriedades devem ser feitas na aba inspector  
 
-Alguma alterações são:
+Algumas alterações são:
 1. Scale: Tamanho e proporções do objeto
 
 2. Rotation: Rotação do objeto nos eixos x,y,z
@@ -44,7 +44,7 @@ Alguma alterações são:
 
 ### Criação do nível
 
-1. Clicando no objeto Cãmera, garanta que está em modo orthographic e que os objetos que você criar a seguir estão dentro do campo de visão dela, é recomendado também trocar a perspectiva de edição para modo 2d
+1. Clicando no objeto Câmera, garanta que está em modo orthographic e que os objetos que você criar a seguir estão dentro do campo de visão dela, é recomendado também trocar a perspectiva de edição para modo 2d
 
 2. Na aba project na parte inferior da tela, navegue até Assets > Part I > Scenes
    - Você verá uma cena chamada “Part I”, apague ela e crie uma nova (botão direito > Create > Scene) com o nome que desejar, em seguida abra-a
