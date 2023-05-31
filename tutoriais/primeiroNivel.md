@@ -125,6 +125,20 @@ var inputX = Input.GetAxis("Horizontal");
 transform.position += inputX * speed * Vector3.right;
 
 ```c#
+public class NewBehaviourScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
 
 transform.position += speed * Vector3.right;
 var inputX = Input.GetAxis("Horizontal");
