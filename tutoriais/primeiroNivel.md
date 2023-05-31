@@ -34,21 +34,25 @@ Algumas alterações são:
 
 4. Scene rotation: Rotação da Cena (a sua perspectiva como desenvolvedor)
 
-![Locais das alterações no unity](https://cdn.discordapp.com/attachments/1105270961391030293/1113538043568197715/Object_shenags.png)
+![Locais das alterações no unity](https://media.discordapp.net/attachments/1105270961391030293/1113529412525240461/Object_shenags.png?width=916&height=473)
 
 
 ### Criação do nível
 
-1. Clicando no objeto Câmera, garanta que está em modo orthographic e que os objetos que você criar a seguir estão dentro do campo de visão dela, é recomendado também trocar a perspectiva de edição para modo 2d
+1. Clicando no objeto Câmera, garanta que está em modo orthographic e que os objetos que você criar a seguir estão dentro do campo de visão dela, é recomendado também trocar a perspectiva de edição para modo 2D
+
+![Opções da câmera no Unity](https://media.discordapp.net/attachments/1105270961391030293/1113529900033388685/image.png?width=849&height=311)
 
 2. Na aba project na parte inferior da tela, navegue até Assets > Part I > Scenes
    - Você verá uma cena chamada “Part I”, apague ela e crie uma nova (botão direito > Create > Scene) com o nome que desejar, em seguida abra-a
-
+   ![Criação da cena nova](https://media.discordapp.net/attachments/1105270961391030293/1113525288752644107/image.png?width=514&height=412)
+  
 3. Na aba Hierarchy, crie um objeto vazio (Create Empty)
 
 4. Com o novo objeto selecionado, adicione o componente sprite renderer
 
 5. Abra o explorador de sprites e selecione um sprite de chão
+![Adicionando Sprite](https://cdn.discordapp.com/attachments/1105270961391030293/1113538683723841678/image.png)
 
 6. Para expandir o chão, crie cópias do objeto e alinha as cópias lado a lado
    - segurar ctrl pode facilitar o alinhamento
