@@ -25,6 +25,18 @@ Para esse tutorial, partiremos de um [projeto Unity](https://github.com/Duerno/u
 - A alteração de um objeto pode ser feito dentro da cena ou na aba inspector 
 - Algumas propriedades devem ser feitas na aba inspector  
 
+```C#
+transform.position += Vector3.right;
+
+
+	transform.position += speed * Vector3.right;
+
+
+	var inputX = Input.GetAxis("Horizontal");
+	transform.position += inputX * speed * Vector3.right;
+
+```
+
 Algumas alterações são:
 1. Scale: Tamanho e proporções do objeto
 
