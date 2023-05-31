@@ -45,7 +45,7 @@
 
 ## Plugin de Unity Hub para Visual Studio Code
    1. Selecione na aba de extensões 
-   2. Pesquise e selecione o Unity Tolls na aba de extensão para baixa-lo 
+   2. Pesquise e selecione o Unity Tools na aba de extensão para baixa-lo 
    
    [Suporte para caso o VSCode não esteja mostrando sugestões de código para Unity](https://code.visualstudio.com/docs/other/unity)
  ## Básicos do Unity
