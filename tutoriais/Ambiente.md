@@ -44,8 +44,10 @@
 
 
 ## Plugin de Unity Hub para Visual Studio Code
-   1. Selecione na aba de extensões 
-   2. Pesquise e selecione o Unity Tools na aba de extensão para baixa-lo 
+   1. Baixe [Visual Studio 2022](https://visualstudio.microsoft.com/pt-br/vs/community/)(é nescessário ter uma conta microsoft)
+   2. Dentro do unity vá em Edit>Preferences>External Tools> external Script Editor e selecione "Microsoft Visual Studio 2022"
+
+!(Caminho para visual studio 2022)[https://cdn.discordapp.com/attachments/1105270961391030293/1113949363371257938/Visual_studio_2022_path.png]
    
    [Suporte para caso o VSCode não esteja mostrando sugestões de código para Unity](https://code.visualstudio.com/docs/other/unity)
  ## Básicos do Unity
