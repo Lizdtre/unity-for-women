@@ -49,7 +49,7 @@
 
 ![Caminho para visual studio 2022](https://cdn.discordapp.com/attachments/1105270961391030293/1113949363371257938/Visual_studio_2022_path.png)
    
-   [Suporte para caso o VSCode não esteja mostrando sugestões de código para Unity](https://code.visualstudio.com/docs/other/unity)
+  
  ## Básicos do Unity
    ### Movimentos
    - Clique e segure com o botão direito enquanto move o mouse na tela interativa para olhar em direções diferentes
