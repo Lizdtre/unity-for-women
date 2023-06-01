@@ -43,12 +43,16 @@
    3. Clique em seu projeto recém criado para abri-lo (pode demorar vários minutos)
 
 
-## Plugin de Unity Hub para Visual Studio Code 2022
-   1. Baixe [Visual Studio Comunity](https://visualstudio.microsoft.com/pt-br/vs/community/)(é nescessário ter uma conta microsoft)
-   2. Dentro do unity vá em Edit>Preferences>External Tools> external Script Editor e selecione "Microsoft Visual Studio 2022"
+## Plugin de Unity Hub para Visual Studio Community 2022
+   1. Baixe [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/)(é nescessário ter uma conta microsoft)
+   2. Ao configurar a instalação, selecione a carga de trabalho para Unity
+
+![Carga de trabalho Unity](https://cdn.discordapp.com/attachments/1105270961391030293/1113951027348131850/image.png)
+
+   3. Dentro do unity vá em Edit>Preferences>External Tools>External Script Editor e selecione "Microsoft Visual Studio 2022"
 
 ![Caminho para visual studio 2022](https://cdn.discordapp.com/attachments/1105270961391030293/1113949363371257938/Visual_studio_2022_path.png)
-   
+   ⚠Caso a opção não apareça, selecione browse e escolha o executável do Visual Studio na pasta de instalação "devenv.exe"
   
  ## Básicos do Unity
    ### Movimentos
