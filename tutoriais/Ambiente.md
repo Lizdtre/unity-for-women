@@ -43,7 +43,9 @@
    3. Clique em seu projeto recém criado para abri-lo (pode demorar vários minutos)
 
 
-## Plugin de Unity Hub para Visual Studio Community 2022
+## Configuração de IDE
+   Para este workshop recomendamos o uso de Visual Studio Community pela funcionalidade nativa de code completion de C# para Unity. Se desejar usar outra IDE, siga o passo 3 para definí-la como padrão do Unity; recomendamos também procurar recursos on-line sobre plugins de code completion Unity para sua IDE.
+   
    1. Baixe [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/)(é nescessário ter uma conta microsoft)
    2. Ao configurar a instalação, selecione a carga de trabalho para Unity
 
