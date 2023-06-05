@@ -19,9 +19,7 @@ Disponivel [aqui](./glossario.md)
 
 # [Tutoriais](./tutoriais#tutoriais)
 
-### [Configuração do Ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
-
-[Configuração de ambiente](../configurar-ambiente/tutoriais)
+[Configuração do Ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
 
 [Adicionar moedas](../adiciona-moedas/tutoriais)
 
