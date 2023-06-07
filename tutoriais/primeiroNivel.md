@@ -81,65 +81,6 @@ Algumas alterações são:
 
 ![Chão com subterrâneo](https://media.discordapp.net/attachments/1105270961391030293/1113542234986512487/image.png?width=731&height=408)
 
-### Criação do jogador
+9. Crie um novo sprite renderer para o background e adicione um sprite como feito anteriormente
 
-1. Crie uma sprite
-
-2. Adicione o componente Rigidbody 2D
-
-3. Adicione também um Box Collider 2D
-
-4. Adicione um Box Collider 2D no objeto que guarda os chãos
-
-5. Edite o collider para que fique igual ao contorno do chão (bottão Edit Collider)
-
--IMAGEM DA HITBOX DO COLIDER NO CHAO-
-
-⚠ Certifique-se que o player e o chão estão na mesma posição Z
-
-
-### Movimentação de Jogador
-
-1. Clique em edit > project settings
-2. Na nova aba aberta, clique em input manager > Axes > Horizontal
-3. Configure os botões negativo e positivo como “a” e “d” respectivamente
-4. No objeto do jogador, adicione um novo componente “new script”
-5. Dê um nome distinto (ex.: PlayerMovement)
-
-⚠ Formatação para nome de script
-- O script deve começar com letra maiúscula e não pode conter espaço 
-
-6. Abra o script recém criado
-- O script padrão do unity contém:
-  - Void Start(): Função chamada no mesmo frame que o objeto que possui o script for instanciado
-  - Void Update(): Chamada todo frame subsequente
-
-
-
-
-transform.position += Vector3.right;
-
-
-transform.position += speed * Vector3.right;
-var inputX = Input.GetAxis("Horizontal");
-transform.position += inputX * speed * Vector3.right;
-
-```c#
-public class PlayerMovement : MonoBehaviour
-{
-
-public float speed = 0.0001f
-    // Start is called before the first frame update
-    void Start()
-    {
-     
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-           var inputX = Input.GetAxis("Horizontal");
-	transform.position += inputX * speed * Vector3.right;
-    }
-}
-```
+![Background](https://cdn.discordapp.com/attachments/1105270961391030293/1116043983454490754/image.png)
