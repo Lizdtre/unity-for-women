@@ -72,3 +72,8 @@ Algumas alterações são:
 9. Crie um novo sprite renderer para o background e adicione um sprite como feito anteriormente
 
 ![Background](https://cdn.discordapp.com/attachments/1105270961391030293/1116043983454490754/image.png)
+
+
+⚠ Certifique-se de que o background está atrás do seu chão (valor da posição em Z superior) pois, caso esteja na frente, a visão do nível sera obscurecida e, caso esteja no mesmo valor em Z, pode ocorrer um fenômeno visual chamado Z-fighting ou Stitching
+
+![Z-fighting](https://media.discordapp.net/attachments/1105270961391030293/1117264991930822777/Z_fighting-1915736467.gif?width=800&height=449)
