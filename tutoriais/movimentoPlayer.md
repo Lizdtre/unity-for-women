@@ -2,6 +2,10 @@ Nesse tutorial iremos mostrar como fazer o objeto player interagir com a fase
 
 ## Colisão
 
+1. Vá nas configurações do objeto
+2. Clique na opção no fim para adcionar um novo componente
+3. procure por "rigid body"
+4. 
 
 
 
