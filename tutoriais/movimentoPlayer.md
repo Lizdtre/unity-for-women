@@ -1,11 +1,17 @@
 Nesse tutorial iremos mostrar como fazer o objeto player interagir com a fase
 
-## Colisão
+## Adicionando física
 
-1. Vá nas configurações do objeto
-2. Clique na opção no fim para adcionar um novo componente
-3. procure por "rigid body"
-4. 
+### Rigid Body
+1.1. Vá nas configurações do objeto
+1.2. Clique na opção no fim para adcionar um novo componente
+1.3. procure por "rigid body"
+1.4. O player tera fisica
+
+### Collider
+2.1.
+
+
 
 
 
