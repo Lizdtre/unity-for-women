@@ -2,7 +2,10 @@ Nesse tutorial iremos mostrar como fazer o objeto player interagir com a fase
 
 ## Colisão
 
-sdfsdf
+
+
+
+## Movimento
 
 
 
