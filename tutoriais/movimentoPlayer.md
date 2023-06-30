@@ -21,7 +21,10 @@ Nesse tutorial iremos mostrar como fazer o objeto player interagir com a fase
 
 ## Movimento
 
-1. Crie um script
+1. Crie um script ou clique na opção "new componet" e dê um nome ainda não usado para criar o script
+2. Abra o script
+
+- 
 
 
 
