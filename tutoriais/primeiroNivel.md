@@ -1,4 +1,4 @@
-# Criando seu primeiro nível
+![image](https://github.com/Lizdtre/unity-for-women/assets/92321749/9389da88-4497-4b00-81ff-cad37129c101)# Criando seu primeiro nível
 ## Adquirindo assets
 
 Para esse tutorial, partiremos de um [projeto Unity](https://github.com/Duerno/unity-for-women-at-unb) que possui uma coleção de sprites prontos.
@@ -67,11 +67,12 @@ Algumas alterações são:
 
 8. Adicione a parte subterrânea do chão para preencher a tela, da mesma forma como anteriormente
 
-![Chão com subterrâneo](https://media.discordapp.net/attachments/1105270961391030293/1124333149082636410/image.png?width=725&height=464)
+![Chão com subterrâneo](https://media.discordapp.net/attachments/1105270961391030293/1113542234986512487/image.png?width=731&height=408)
+
 
 9. Crie um novo sprite renderer para o background e adicione um sprite como feito anteriormente
 
-![Background](https://cdn.discordapp.com/attachments/1105270961391030293/1116043983454490754/image.png)
+![Background](https://media.discordapp.net/attachments/1105270961391030293/1124333149082636410/image.png?width=725&height=464)
 
 
 ⚠ Certifique-se de que o background está atrás do seu chão (valor da posição em Z superior) pois, caso esteja na frente, a visão do nível sera obscurecida e, caso esteja no mesmo valor em Z, pode ocorrer um fenômeno visual chamado Z-fighting ou Stitching
