@@ -77,6 +77,7 @@ Algumas alterações são:
 10. Por fim, crie mais um sprite para representar o personagem principal, daremos movimento à ele no proximo tutorial
 
 ![Player](https://media.discordapp.net/attachments/1105270961391030293/1116043983454490754/image.png?width=984&height=512)
-⚠ Certifique-se de que o background está atrás do seu chão (valor da posição em Z superior) pois, caso esteja na frente, a visão do nível sera obscurecida e, caso esteja no mesmo valor em Z, pode ocorrer um fenômeno visual chamado Z-fighting ou Stitching
+
+⚠ Certifique-se de posicionar o background atrás do seu chão e do player (valor da posição em Z superior) pois, caso esteja na frente, a visão do nível sera obscurecida e, caso esteja no mesmo valor em Z, pode ocorrer um fenômeno visual chamado Z-fighting ou Stitching
 
 ![Z-fighting](https://media.discordapp.net/attachments/1105270961391030293/1117264991930822777/Z_fighting-1915736467.gif?width=800&height=449)
