@@ -20,7 +20,7 @@ Nesse tutorial iremos mostrar como fazer o objeto player interagir com a fase
 
 
 ## Movimento
-
+1. Crie um script
 
 
 
