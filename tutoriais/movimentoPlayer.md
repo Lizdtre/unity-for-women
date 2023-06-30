@@ -24,7 +24,15 @@ Nesse tutorial iremos mostrar como fazer o objeto player interagir com a fase
 1. Crie um script ou clique na opção "new componet" e dê um nome ainda não usado para criar o script
 2. Abra o script
 
-- 
+- O script Unity vem com funções especificas do Unity. Sendo elas:
+
+````
+function
+````
+
+````
+fucntion
+````
 
 
 
