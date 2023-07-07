@@ -81,7 +81,7 @@ public class PlayerMovimentation : MonoBehaviour
 
   Variáveis definidas com "public" podem ser acessadas diretamente pelo editor Unity
 
-  ![Variáveis no editor](https://cdn.discordapp.com/attachments/1105270961391030293/1126892308118388776/image.png)
+  ![Editando a variável durante execução](https://cdn.discordapp.com/attachments/1105270961391030293/1126909364997992578/2023-07-07_13-10-03.mp4)
 
 ```
 
