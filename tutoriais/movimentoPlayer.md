@@ -3,6 +3,7 @@
 ## Adicionando física
 
 ### Colisão
+- Antes de adcionar a fisica, os objetos tem que poder interagir entre si (Corpo físico)
 
 ### Corpo físico
 
@@ -10,6 +11,10 @@
 2. CLique na opção "add component"
 3. Procure pela opção "Rigidbody 2D"
 - O player terá fisica
+
+- Aplique o mesmo processo para o chão
+    - É nescessário alterar o tamanho da hitbox
+      (Foto de exemplo nescessária)
 
 ### Colisões
 
