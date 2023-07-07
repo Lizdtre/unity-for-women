@@ -85,13 +85,9 @@ public class PlayerMovimentation : MonoBehaviour
 
   ![Editando a variável durante execução](https://cdn.discordapp.com/attachments/1105270961391030293/1126910382817161257/ezgif-2-6ec952770d.gif)
 
+4. Para permitir que o player seja controlado pelo teclado, fazemos essa modificação dentro de Update()
+
 ```
-
-
-
-    
-
-
     var inputX = Input.GetAxis("Horizontal");
     transform.position += inputX * speed * Vector3.right;
 
