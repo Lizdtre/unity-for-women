@@ -4,10 +4,10 @@
 
 ### Corpo físico
 
-1. selecione o objeto player
-2. Adicione um componente
-3. Procure por "Rigidbody 2D"
-4. O player terá fisica
+1. Selocione o obejeto que é seu player
+2. CLique na opção "add component"
+3. Procure pela opção "Rigidbody 2D"
+- O player terá fisica
 
 ### Colisões
 
