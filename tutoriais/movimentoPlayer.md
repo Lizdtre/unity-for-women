@@ -87,8 +87,7 @@ public class PlayerMovimentation : MonoBehaviour
 
 4. Para permitir que o player seja controlado pelo teclado, fazemos essa modificação dentro de Update()
 
-```
+```C#
     var inputX = Input.GetAxis("Horizontal");
     transform.position += inputX * speed * Vector3.right;
-
 ```
