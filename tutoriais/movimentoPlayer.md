@@ -13,8 +13,7 @@
 - O player terá fisica
 
 - Aplique o mesmo processo para o chão
-    - É nescessário alterar o tamanho da hitbox
-      (Foto de exemplo nescessária)
+
 
 ### Colisões
 
