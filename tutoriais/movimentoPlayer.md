@@ -2,6 +2,8 @@
 
 ## Adicionando física
 
+### Colisão
+
 ### Corpo físico
 
 1. Selocione o obejeto que é seu player
