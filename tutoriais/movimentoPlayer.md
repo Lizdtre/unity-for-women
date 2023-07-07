@@ -21,10 +21,14 @@ Nesse tutorial iremos mostrar como fazer o objeto player interagir com a fase
 
 ## Movimento
 
-1. Crie um script ou clique na opção "new componet" e dê um nome ainda não usado para criar o script
-2. Abra o script
+1. Crie um script ou clique na opção "add componet"
+2. Escreva o nome que você vai dar a seu script
+3.  dê um nome ainda não usado para criar o script (Ex: player)
+4. Abra o script
 
 - O script Unity vem com funções especificas do Unity. Sendo elas:
+- void start: Esta função é ativada no primeiro frma do jogo
+- void update: Esta é ativida a cada frame
 
 ````
 function
