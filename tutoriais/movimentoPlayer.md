@@ -61,14 +61,20 @@ Tudo dentro desta função irá rodar continuamente todo frame que o objeto esti
 3. Dentro de Update(), Insirá o seguinte código
 
 ```C#
+void Update()
+{
   transform.position += Vector3.right;
+}
 ```
   ⚠ Sempre salve quaisquer alterações feitas em scripts
 
   Ao rodar o jogo, você deverá ver o player ir para a direita extremamente rápido, para controlar sua velocidade, podemos fazer a seguinte mudança
 
 ```C#
+void Update()
+{
   transform.position += speed * Vector3.right;
+}
 ```
 
   E defina a variável speed como um float(número real) no início do script
@@ -89,8 +95,11 @@ public class PlayerMovimentation : MonoBehaviour
 4. Para permitir que o player seja controlado pelo teclado, fazemos essa modificação dentro de Update()
   
 ```C#
+void Update()
+{
     var inputX = Input.GetAxis("Horizontal");
     transform.position += inputX * speed * Vector3.right;
+}
 ```
 
    ![Player sendo controlado pelo teclado](https://media.discordapp.net/attachments/1105270961391030293/1126913829171904593/ezgif-2-1672155832.gif?width=719&height=404)
