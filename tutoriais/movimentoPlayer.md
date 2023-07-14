@@ -1,4 +1,5 @@
 
+
 # Adicionando movimento ao jogador
 
 ## Adicionando física
@@ -110,31 +111,88 @@ void Update()
 ## Movimento por Rigidbody2D
 Outra maneira de fazer a movimentação do jogador é utilizando seu componente Rigidbody2D, que dita sua velocidade
 
-Para poder interagir com o Rigidbody2D dentro do script, precisamos primeiro defini-lo como um componente da nossa classe
-1.  
+Para poder interagir com o Rigidbody2D dentro do script, precisamos primeiro defini-lo como um componente da nossa classe 
+
+1.  Declare um novo componente público de tipo Rigidbody2D
+```C#
+public class PlayerMovimentation : MonoBehaviour
+{
+    public Rigidbody2D myrigidbody;
+    public float maxSpeed = 1f;
+	.
+	.
+	.
+}
+```
+2. Dentro de Start(), escreva a seguinte linha
+```C#
+	void Start()
+	{
+		myrigidbody = GetComponent<RigidBody2D>();
+	}
+```
+
+3. Depois de salvar o script, no Unity você verá uma nova variável no componente script do jogador com um valor "None". Para arrumar isso, clique e segure o RigidBody2D do jogador e leve-o até aquela caixa.
+
+	![Arrastando o componente](https://cdn.discordapp.com/attachments/1105270961391030293/1129450931445051432/this_one.png)
+
+5. Para movimentar o jogador através do Rigidbody2D, escreva o seguinte código em Update()
+```C#
+	void Update()
+	{
+		var inputX = Input.GetAxis("Horizontal");
+		myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
+	}
+```
+
 
 ## Pulo
 
   Para permitir que o player pule, ao invés de atualizar sua velocidade vertical todo frame como para o movimento horizontal, verificaremos primeiro SE o player está apertando o botão de pulo
 
-1. Repita o mesmo processo feito anteriormente para definir os inputs, dessa vez com o eixo vertical (defina o botão positivo)
+1. Dentro de Project Settings > Input Manager, vá em Jump e defina o botão positivo assim como feito anteriormente. (escreva "space" caso queira utilizar a barra de espaço)
 
-2. Dentro de update, insira o seguinte código
-
-3. 
-
-
-
+2. Dentro de Update(), adicione o seguinte código
 ```C#
-
- var x = Input.GetAxis("Horizontal");
-        rigidBody.velocity = new Vector2(x*speed, rigidBody.velocity.y);
-        //transform.position += inputX * speed * Vector3.right;
-
+	void Update()
+	{
+		var x = Input.GetAxis("Horizontal");
+		myrigidbody.velocity = new Vector2(x*speed, myrigidbody.velocity.y);
+        
         if (Input.GetButton("Jump")) {
-
-            Debug.Log("Jumpy Fuck");
-            rigidBody.velocity += Vector2.up * jumpspeed;
+			Debug.Log("Você Pulou!");
         }
-
+	}
 ```
+
+Quando apertarmos o botão de pulo, uma mensagem aparecerá no console de debug
+
+![Console de Debug](https://media.discordapp.net/attachments/1105270961391030293/1129453759194468443/image.png?width=599&height=508)
+
+3. Dentro da condição if, insira o seguinte código
+```C#
+	void Update()
+	{
+		var inputX = Input.GetAxis("Horizontal");
+		myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
+        
+        if (Input.GetButton("Jump")) {
+			Debug.Log("Você Pulou!");
+			myrigidbody.velocity += Vector2.up * jumpSpeed;
+        }
+	}
+```
+E declare a variável jumpSpeed no início da classe
+```C#
+public class PlayerMovimentation : MonoBehaviour
+{
+    public Rigidbody2D myrigidbody;
+    public float maxSpeed = 1f;
+    public float jumpSpeed = 0.5f;
+    .
+    .
+    .
+}
+```
+
+
