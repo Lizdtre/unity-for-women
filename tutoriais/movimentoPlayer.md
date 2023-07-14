@@ -1,3 +1,4 @@
+
 # Adicionando movimento ao jogador
 
 ## Adicionando física
@@ -36,7 +37,7 @@ Existem algumas formas de adicionar movimento ao jogador, a mais símples é uti
   
 ### Script
 
-1. Para criar um script, adicione um componente ao player com um nome original (ex.: "PlayerMovementation") e clique em New Script
+1. Para criar um script, adicione um componente ao player com um nome original (ex.: "PlayerMovimentation") e clique em New Script
 2. Abra o script recém criado
 
 - Os scripts Unity vem com funções especificas do Unity. Sendo elas:
@@ -105,6 +106,12 @@ void Update()
 ```
 
    ![Player sendo controlado pelo teclado](https://media.discordapp.net/attachments/1105270961391030293/1126913829171904593/ezgif-2-1672155832.gif?width=719&height=404)
+   
+## Movimento por Rigidbody2D
+Outra maneira de fazer a movimentação do jogador é utilizando seu componente Rigidbody2D, que dita sua velocidade
+
+Para poder interagir com o Rigidbody2D dentro do script, precisamos primeiro defini-lo como um componente da nossa classe
+1.  
 
 ## Pulo
 
