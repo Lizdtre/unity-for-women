@@ -27,16 +27,11 @@
 
 ⚠ Certifique-se que o player e o chão estão na mesma camada em Z, ou a colisão não irá funcionar
 
-## Movimento
+Ao rodar o jogo agora, o player terá gravidade e colidirá com o chão a cair, porém, ainda não temos controle sobre ele
 
-  Ao rodar o jogo agora, o player terá gravidade e colidirá com o chão a cair, porém, ainda não temos controle sobre ele
+## Movimento por transform
 
-### Inputs
-1. No canto superior esquerdo, clique em edit > Project Settings
-2. Na nova janela aberta, clique em Input Manager > Axes > Horizontal
-3. Defina os botões negativo e positivo com as teclas que quiser usar para mover o player para a esquerda e para a direita, respectivamente
-
-  ![Input Maganer](https://cdn.discordapp.com/attachments/1105270961391030293/1126883320458924102/image.png)
+Existem algumas formas de adicionar movimento ao jogador, a mais símples é utilizando o componente transform dos objetos, que dita sua posição dentro do jogo
 
   
 ### Script
@@ -92,7 +87,14 @@ public class PlayerMovimentation : MonoBehaviour
 
   ![Editando a variável durante execução](https://cdn.discordapp.com/attachments/1105270961391030293/1126910382817161257/ezgif-2-6ec952770d.gif)
 
-4. Para permitir que o player seja controlado pelo teclado, fazemos essa modificação dentro de Update()
+### Inputs
+1. No canto superior esquerdo, clique em edit > Project Settings
+2. Na nova janela aberta, clique em Input Manager > Axes > Horizontal
+3. Defina os botões negativo e positivo com as teclas que quiser usar para mover o player para a esquerda e para a direita, respectivamente
+
+  ![Input Maganer](https://cdn.discordapp.com/attachments/1105270961391030293/1126883320458924102/image.png)
+
+Para permitir que o player seja controlado pelo teclado, fazemos essa modificação dentro de Update()
   
 ```C#
 void Update()
