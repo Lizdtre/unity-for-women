@@ -95,5 +95,10 @@ public class PlayerMovimentation : MonoBehaviour
 
    ![Player sendo controlado pelo teclado](https://media.discordapp.net/attachments/1105270961391030293/1126913829171904593/ezgif-2-1672155832.gif?width=719&height=404)
 
-### Pulo
+## Pulo
 
+  Para permitir que o player pule, ao invés de atualizar sua velocidade vertical todo frame como para o movimento horizontal, verificaremos primeiro SE o player está apertando o botão de pulo
+
+1. Repita o mesmo processo feito anteriormente para definir os inputs, dessa vez com o eixo vertical (defina o botão positivo)
+
+2. Dentro de update, insira o seguinte código
