@@ -3,17 +3,14 @@
 ## Adicionando física
 
 ### Colisão
-- Antes de adcionar a fisica, os objetos tem que poder interagir entre si (Corpo físico)
+- Antes de adicionar a física, os objetos precisam ser capazes de interagir entre si, para isso os daremos um corpo físico
 
 ### Corpo físico
 
-1. Selocione o obejeto que é seu player
-2. CLique na opção "add component"
+1. Selocione o seu objeto player
+2. Clique na opção "add component"
 3. Procure pela opção "Rigidbody 2D"
-- O player terá fisica
-
-- Aplique o mesmo processo para o chão
-
+  O player terá fisica
 
 ### Colisões
 
@@ -26,7 +23,7 @@
 
   ![Botão de editar collider](https://media.discordapp.net/attachments/1105270961391030293/1124346156546273330/image.png?width=416&height=316)
 
-5. Tente deixar a caixa de colisão o mais próximo possível do formato dos objetos
+5. Tente deixar a caixa de colisão o mais próximo o possível do formato dos objetos
 
 ⚠ Certifique-se que o player e o chão estão na mesma camada em Z, ou a colisão não irá funcionar
 
