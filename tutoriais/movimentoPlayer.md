@@ -102,3 +102,21 @@ public class PlayerMovimentation : MonoBehaviour
 1. Repita o mesmo processo feito anteriormente para definir os inputs, dessa vez com o eixo vertical (defina o botão positivo)
 
 2. Dentro de update, insira o seguinte código
+
+3. 
+
+
+
+```C#
+
+ var x = Input.GetAxis("Horizontal");
+        rigidBody.velocity = new Vector2(x*speed, rigidBody.velocity.y);
+        //transform.position += inputX * speed * Vector3.right;
+
+        if (Input.GetButton("Jump")) {
+
+            Debug.Log("Jumpy Fuck");
+            rigidBody.velocity += Vector2.up * jumpspeed;
+        }
+
+        ```
