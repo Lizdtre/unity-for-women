@@ -60,7 +60,7 @@ Tudo dentro desta função irá rodar continuamente todo frame que o objeto esti
 ```C#
 void Update()
 {
-  transform.position += Vector3.right;
+	transform.position += Vector3.right;
 }
 ```
   ⚠ Sempre salve quaisquer alterações feitas em scripts
@@ -70,7 +70,7 @@ void Update()
 ```C#
 void Update()
 {
-  transform.position += speed * Vector3.right;
+	transform.position += speed * Vector3.right;
 }
 ```
 
@@ -79,10 +79,11 @@ void Update()
 ```C#
 public class PlayerMovimentation : MonoBehaviour
 {
-    public float speed = 0.1f;
-      .
-      .
-      .
+	public float speed = 0.1f;
+	  .
+	  .
+	  .
+}
 ```
 
   Variáveis definidas com "public" podem ser acessadas diretamente pelo editor Unity
@@ -101,8 +102,8 @@ Para permitir que o player seja controlado pelo teclado, fazemos essa modificaç
 ```C#
 void Update()
 {
-    var inputX = Input.GetAxis("Horizontal");
-    transform.position += inputX * speed * Vector3.right;
+	var inputX = Input.GetAxis("Horizontal");
+	transform.position += inputX * speed * Vector3.right;
 }
 ```
 
@@ -117,8 +118,8 @@ Para poder interagir com o Rigidbody2D dentro do script, precisamos primeiro def
 ```C#
 public class PlayerMovimentation : MonoBehaviour
 {
-    public Rigidbody2D myrigidbody;
-    public float maxSpeed = 1f;
+	public Rigidbody2D myrigidbody;
+	public float maxSpeed = 1f;
 	.
 	.
 	.
@@ -126,10 +127,10 @@ public class PlayerMovimentation : MonoBehaviour
 ```
 2. Dentro de Start(), escreva a seguinte linha
 ```C#
-	void Start()
-	{
-		myrigidbody = GetComponent<RigidBody2D>();
-	}
+void Start()
+{
+	myrigidbody = GetComponent<RigidBody2D>();
+}
 ```
 
 3. Depois de salvar o script, no Unity você verá uma nova variável no componente script do jogador com um valor "None". Para arrumar isso, clique e segure o RigidBody2D do jogador e leve-o até aquela caixa.
@@ -138,11 +139,11 @@ public class PlayerMovimentation : MonoBehaviour
 
 5. Para movimentar o jogador através do Rigidbody2D, escreva o seguinte código em Update()
 ```C#
-	void Update()
-	{
-		var inputX = Input.GetAxis("Horizontal");
-		myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
-	}
+void Update()
+{
+	var inputX = Input.GetAxis("Horizontal");
+	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
+}
 ```
 
 
@@ -154,15 +155,15 @@ public class PlayerMovimentation : MonoBehaviour
 
 2. Dentro de Update(), adicione o seguinte código
 ```C#
-	void Update()
-	{
-		var x = Input.GetAxis("Horizontal");
-		myrigidbody.velocity = new Vector2(x*speed, myrigidbody.velocity.y);
+void Update()
+{
+	var x = Input.GetAxis("Horizontal");
+	myrigidbody.velocity = new Vector2(x*speed, myrigidbody.velocity.y);
         
         if (Input.GetButton("Jump")) {
-			Debug.Log("Você Pulou!");
+		Debug.Log("Você Pulou!");
         }
-	}
+}
 ```
 
 Quando apertarmos o botão de pulo, uma mensagem aparecerá no console de debug
@@ -171,27 +172,27 @@ Quando apertarmos o botão de pulo, uma mensagem aparecerá no console de debug
 
 3. Dentro da condição if, insira o seguinte código
 ```C#
-	void Update()
-	{
-		var inputX = Input.GetAxis("Horizontal");
-		myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
+void Update()
+{
+	var inputX = Input.GetAxis("Horizontal");
+	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
         
         if (Input.GetButton("Jump")) {
 			Debug.Log("Você Pulou!");
 			myrigidbody.velocity += Vector2.up * jumpSpeed;
-        }
 	}
+}
 ```
 E declare a variável jumpSpeed no início da classe
 ```C#
 public class PlayerMovimentation : MonoBehaviour
 {
-    public Rigidbody2D myrigidbody;
-    public float maxSpeed = 1f;
-    public float jumpSpeed = 0.5f;
-    .
-    .
-    .
+	public Rigidbody2D myrigidbody;
+	public float maxSpeed = 1f;
+	public float jumpSpeed = 0.5f;
+	.
+	.
+	.
 }
 ```
 
