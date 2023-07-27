@@ -175,11 +175,11 @@ Quando apertarmos o botão de pulo, uma mensagem aparecerá no console de debug
 void Update()
 {
 	var inputX = Input.GetAxis("Horizontal");
-	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
+	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
         
         if (Input.GetButton("Jump")) {
-			Debug.Log("Você Pulou!");
-			myrigidbody.velocity += Vector2.up * jumpSpeed;
+			Debug.Log("Você Pulou!"); // Escreve "Você Pulou!" enquanto barra de espaço estiver pressionada;
+			myrigidbody.velocity += Vector2.up * jumpSpeed; // velociade do rigidbody = velocidade vertical*velocidade pulo 
 	}
 }
 ```
