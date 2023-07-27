@@ -15,7 +15,7 @@ Cada tutorial vai então especificar arquivos de cena, assets e/ou scripts que d
   - Somente o projeto base
   
 ### Saída
-  - [Parte I](https://github.com/Lizdtre/unity-for-women/tree/estrutura_cenas/workshop/Assets/Part%20I)
+  - [Parte I](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20I)
 
 ## [Movimentação do Jogador]()
   Criamos os primeiros scripts para movimentação do jogador, vendo também como configurar e detectar inputs do teclado.
@@ -24,4 +24,4 @@ Cada tutorial vai então especificar arquivos de cena, assets e/ou scripts que d
   - Saída da parte I
     
 ### Saída
-  - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/estrutura_cenas/workshop/Assets/Part%20II)
+  - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20II)
