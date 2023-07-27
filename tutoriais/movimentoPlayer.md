@@ -102,7 +102,7 @@ Para permitir que o player seja controlado pelo teclado, fazemos essa modificaç
 void Update()
 {
 	var inputX = Input.GetAxis("Horizontal");
-	transform.position += inputX * speed * Vector3.right;
+	transform.position += inputX * speed * Vector3.right; //
 }
 ```
 
@@ -128,7 +128,7 @@ public class PlayerMovimentation : MonoBehaviour
 ```C#
 void Start()
 {
-	myrigidbody = GetComponent<RigidBody2D>();
+	myrigidbody = GetComponent<RigidBody2D>(); // variavel é inicializada quando o jogo começa
 }
 ```
 
@@ -141,7 +141,7 @@ void Start()
 void Update()
 {
 	var inputX = Input.GetAxis("Horizontal");
-	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y);
+	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
 }
 ```
 
@@ -157,10 +157,10 @@ void Update()
 void Update()
 {
 	var x = Input.GetAxis("Horizontal");
-	myrigidbody.velocity = new Vector2(x*speed, myrigidbody.velocity.y);
+	myrigidbody.velocity = new Vector2(x*speed, myrigidbody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
         
         if (Input.GetButton("Jump")) {
-		Debug.Log("Você Pulou!");
+		Debug.Log("Você Pulou!"); // Escreve "Você Pulou!" enquanto barra de espaço estiver pressionada;
         }
 }
 ```
