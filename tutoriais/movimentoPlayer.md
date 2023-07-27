@@ -59,7 +59,7 @@ Tudo dentro desta função irá rodar continuamente todo frame que o objeto esti
 ```C#
 void Update()
 {
-	transform.position += Vector3.right;
+	transform.position += Vector3.right; // Move o player para a direita
 }
 ```
   ⚠ Sempre salve quaisquer alterações feitas em scripts
@@ -69,7 +69,7 @@ void Update()
 ```C#
 void Update()
 {
-	transform.position += speed * Vector3.right;
+	transform.position += speed * Vector3.right; // Move o player para a direita com velocidade controlada
 }
 ```
 
@@ -78,7 +78,7 @@ void Update()
 ```C#
 public class PlayerMovimentation : MonoBehaviour
 {
-	public float speed = 0.1f;
+	public float speed = 0.1f; //velociade = 0.1
 	  .
 	  .
 	  .
@@ -102,7 +102,11 @@ Para permitir que o player seja controlado pelo teclado, fazemos essa modificaç
 void Update()
 {
 	var inputX = Input.GetAxis("Horizontal");
-	transform.position += inputX * speed * Vector3.right; //
+	// inputX = -1 se o player apertar o botão para mover para a esquerda
+        //        =  1 para a direita
+        //        =  0 se nenhum dos dois estiver sendo apertad
+
+	transform.position += inputX * speed * Vector3.right; // Move o player horizontamente quando o botao de movimento estiver pressionado
 }
 ```
 
@@ -117,8 +121,8 @@ Para poder interagir com o Rigidbody2D dentro do script, precisamos primeiro def
 ```C#
 public class PlayerMovimentation : MonoBehaviour
 {
-	public Rigidbody2D myrigidbody;
-	public float maxSpeed = 1f;
+	public Rigidbody2D myrigidbody; // Cria uma variável que vai guardar as propiedades do componente RigidBody
+	public float maxSpeed = 1f; // velociade maxima
 	.
 	.
 	.
@@ -141,7 +145,11 @@ void Start()
 void Update()
 {
 	var inputX = Input.GetAxis("Horizontal");
-	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
+	 // inputX = -1 se o player apertar o botão para mover para a esquerda
+        //        =  1 para a direita
+        //        =  0 se nenhum dos dois estiver sendo apertad
+
+	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y); // Atualiza o player horizontalmente todo frame
 }
 ```
 
@@ -157,10 +165,11 @@ void Update()
 void Update()
 {
 	var x = Input.GetAxis("Horizontal");
-	myrigidbody.velocity = new Vector2(x*speed, myrigidbody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
-        
+	myrigidbody.velocity = new Vector2(x*speed, myrigidbody.velocity.y); // Atualiza o player horizontalmente todo frame
+
+	//Entra na condição enquanto o batão de "Jump" estiver pressionado
         if (Input.GetButton("Jump")) {
-		Debug.Log("Você Pulou!"); // Escreve "Você Pulou!" enquanto barra de espaço estiver pressionada;
+		Debug.Log("Você Pulou!"); // Escreve "Você Pulou!" no console
         }
 }
 ```
@@ -174,11 +183,12 @@ Quando apertarmos o botão de pulo, uma mensagem aparecerá no console de debug
 void Update()
 {
 	var inputX = Input.GetAxis("Horizontal");
-	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
-        
+	myrigidbody.velocity = new Vector2(inputX * maxSpeed, myrigidbody.velocity.y); // Atualiza o player horizontalmente todo frame
+
+	//Entra na condição enquanto o batão de "Jump" estiver pressionado
         if (Input.GetButton("Jump")) {
-			Debug.Log("Você Pulou!"); // Escreve "Você Pulou!" enquanto barra de espaço estiver pressionada;
-			myrigidbody.velocity += Vector2.up * jumpSpeed; // velociade do rigidbody = velocidade vertical*velocidade pulo 
+			Debug.Log("Você Pulou!"); // Escreve "Você Pulou!" no console
+			myrigidbody.velocity += Vector2.up * jumpSpeed; // Acelera o player para cima todo frame
 	}
 }
 ```
@@ -186,9 +196,9 @@ E declare a variável jumpSpeed no início da classe
 ```C#
 public class PlayerMovimentation : MonoBehaviour
 {
-	public Rigidbody2D myrigidbody;
-	public float maxSpeed = 1f;
-	public float jumpSpeed = 0.5f;
+	public float speed = 0.1f; // velocidade horizontal = 0.1
+        public float jumpspeed = 0.5f; // velociade do pulo = 0.5
+        public Rigidbody2D rigidBody; // cria objeto RigidBody2D
 	.
 	.
 	.
