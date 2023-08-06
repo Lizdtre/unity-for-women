@@ -22,8 +22,19 @@ Cada tutorial vai então especificar arquivos de cena, assets e/ou scripts que d
   Criamos os primeiros scripts para movimentação do jogador, vendo também como configurar e detectar inputs do teclado.
 
 ### Entrada
-  - Saída da parte I
+  - Parte I
     
 ### Saída
-  - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20II) , jogador capaz de se mover horizontalmente e pular, com velocidades configuráveis pelo editor.
+  - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20II) , jogador capaz de se mover horizontalmente e pular.
+
+## [Desenvolvimento do nível](./Desenvolvendo Nível.md)
+
+  Expandimos o primeiro nível e adicionamos um objetivo final, adicionamos também movimento a câmera.
+
+### Entrada
+  - Parte II
+
+### Saída
+  - [Parte III](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20III) , nível com desafio de platforming e moeda indicando o final da fase
+
 
