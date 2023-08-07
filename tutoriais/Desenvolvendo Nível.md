@@ -73,3 +73,5 @@ A câmera continuará se movimentando onde quer que formos, podendo expor as par
       }
    }
    ```
+
+   ![GIF camera limitada](https://cdn.discordapp.com/attachments/1105270961391030293/1138169314051117167/ezgif-5-49fbdd9a31.gif)
