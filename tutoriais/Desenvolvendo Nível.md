@@ -104,3 +104,40 @@ Para mudar o atrito, precisamos atribuir um novo material físico aos colliders
 
    ![Material novo no componente](https://cdn.discordapp.com/attachments/1105270961391030293/1138178002275020930/image.png)
    
+
+## Fim da fase
+
+Para oficializar que o player finalizou a fase, vamos fazer com que tocar na moeda nos dê parabéns pelo console!
+
+1. Adicione um collider 2D à moeda, de qualquer formato que quiser (tente modificar a propriedade "Edge Radius" do box collider para criar um quadrado com cantos redondos)
+2. Adicione também um script à moeda, dentro do qual adicionaremos o código que nos dá parabéns por alcançá-la
+
+Para detectar que tocamos na moeda, o Unity possui um método (Assim como Start() e Update()) que é chamado sempre que algo entra em contato com o collider do objeto
+
+3. Adicione o seguinte método ao script:
+   ```C#
+   public class GameGoalController : MonoBehaviour
+   {
+      // Start is called before the first frame update
+      void Start()
+      {
+
+      }
+
+      // Update is called once per frame
+      void Update()
+      {
+
+      }
+
+      // OnCollisionEnter2D é chamado quando uma colisão com outro objeto se inicia
+      void OnCollisionEnter2D(Collision2D other)
+      {
+         Debug.Log("Parabéns, você me achou!");      // Imprime uma mensagem ao console
+      }
+   }
+   ```
+
+
+
+   
