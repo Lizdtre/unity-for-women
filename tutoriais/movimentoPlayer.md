@@ -218,7 +218,7 @@ public class PlayerMovimentation : MonoBehaviour
    - Criar uma função que torna isJumping = true
      ```C#
      private void OnCollisionEnter2D (Collision2D other)
-    {
+    	{
         isJumping = false;
-    }
+    	}
   ```
