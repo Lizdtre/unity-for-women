@@ -213,7 +213,7 @@ public class PlayerMovimentation : MonoBehaviour
      ```
    - Adicionar uma segunda condição no if em que: Para entrar na condição a barra de espaço deve estar pressionada E isJumping seja falso
      ```C#
-       if (Input.GetButton("Jump") && !isJumping) {
+       if (Input.GetButtonDown("Jump") && !isJumping) {
      ```
    - Criar uma função para quando ocorrer colisão, e usar para tornar isJumping = true
      ```C#
@@ -223,4 +223,31 @@ public class PlayerMovimentation : MonoBehaviour
      ```
 
 - O resultado final deve ficar assim
+  ```C#
+  void Update(){
+
+        var x = Input.GetAxis("Horizontal");
+        rigidBody.velocity = new Vector2(x*speed, rigidBody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
+
+        // Entre na condição quando apertar a barra de espaço E isJumping = false
+        if (Input.GetButtonDown("Jump") && !isJumping) 
+        {
+
+            Debug.Log("Jump"); // Quando pular escreve "Jump" no Debug Log
+
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed); // velociade do rigidbody = velocidade vertical*velocidade pulo 
+
+            isJumping = true;
+        }
+
+       
+
+    }
+
+    private void OnCollisionEnter2D (Collision2D other) // Função chamada quando player entra em colisão
+    {
+        isJumping = false;
+    }
+  ```
       ![jumping](https://cdn.discordapp.com/attachments/1105270961391030293/1138206900123611156/ezgif-5-af5672a76c.gif)
+      
