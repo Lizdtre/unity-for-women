@@ -76,3 +76,13 @@ A câmera continuará se movimentando onde quer que formos, podendo expor as par
 
 
    ![GIF camera limitada](https://cdn.discordapp.com/attachments/1105270961391030293/1138169314051117167/ezgif-5-49fbdd9a31.gif)
+
+## Adicionando obstáculos
+   Com as mecânicas básicas de movimento feitas, agora você pode criar um nível símples como quiser!
+   Adicione plataformas e obstáculos símples, e altere as variáveis de velocidade e pulo do jogador caso ache necessário
+   
+   ⚠ Lembre-se que todos os objetos sólidos precisam ter um collider, você pode addicionar um collider à cada bloco individual de terra/grama caso prefira, para que você possa copiar e colar os objetos à vontade
+
+   Adicione também um objeto, como uma moeda, para ser o objetivo da fase
+
+   ![Fase com obstáculos e objetivo](https://media.discordapp.net/attachments/1105270961391030293/1138173132260257873/image.png?width=962&height=213)
