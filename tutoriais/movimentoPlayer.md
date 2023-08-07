@@ -220,4 +220,4 @@ public class PlayerMovimentation : MonoBehaviour
      private void OnCollisionEnter2D (Collision2D other) {
         isJumping = false;
     	}
-  ```
+     ```
