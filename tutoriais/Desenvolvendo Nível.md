@@ -78,11 +78,29 @@ A câmera continuará se movimentando onde quer que formos, podendo expor as par
    ![GIF camera limitada](https://cdn.discordapp.com/attachments/1105270961391030293/1138169314051117167/ezgif-5-49fbdd9a31.gif)
 
 ## Adicionando obstáculos
-   Com as mecânicas básicas de movimento feitas, agora você pode criar um nível símples como quiser!
-   Adicione plataformas e obstáculos símples, e altere as variáveis de velocidade e pulo do jogador caso ache necessário
-   
-   ⚠ Lembre-se que todos os objetos sólidos precisam ter um collider, você pode addicionar um collider à cada bloco individual de terra/grama caso prefira, para que você possa copiar e colar os objetos à vontade
+Com as mecânicas básicas de movimento feitas, agora você pode criar um nível símples como quiser!
+1. Adicione plataformas e obstáculos símples, e altere as variáveis de velocidade e pulo do jogador caso ache necessário
 
-   Adicione também um objeto, como uma moeda, para ser o objetivo da fase
+⚠ Lembre-se que todos os objetos sólidos precisam ter um collider, você pode addicionar um collider à cada bloco individual de terra/grama caso prefira, para que você possa copiar e colar os objetos à vontade
+
+2. Adicione também um objeto, como uma moeda, para ser o objetivo da fase
 
    ![Fase com obstáculos e objetivo](https://media.discordapp.net/attachments/1105270961391030293/1138173132260257873/image.png?width=962&height=213)
+
+Você pode ter percebido que ao pular e colidir com o lado de um bloco, o jogador gruda e para de cair, isso é porque os colliders possuem atrito, que por padrão é bem alto
+
+
+   ![Atrito dos colliders](https://cdn.discordapp.com/attachments/1105270961391030293/1138174800209121400/ezgif-5-893fff0024.gif)
+
+Para mudar o atrito, precisamos atribuir um novo material físico aos colliders
+
+3. No explorer, clique com o botão direito do mouse > create > physics material 2D e dê um nome qualquer
+4. Selecione o material recém criado e, no inspector, reduza o atrito para 0 (ou qualquer valor desejado)
+5. Na barra de pesquisa da aba de hierarquia, digite "t:collider2D", isso irá destacar na tela todos os objetos que possuem um collider
+
+   ![comando na barra de pesquisa ressaltando objetos com collider](https://cdn.discordapp.com/attachments/1105270961391030293/1138177172549423206/image.png)
+
+6. Selecione todos os objetos ressaltados (com excessão do player) e arraste o material criado até a caixa "Material" no componente Box Collider 2D
+
+   ![Material novo no componente](https://cdn.discordapp.com/attachments/1105270961391030293/1138178002275020930/image.png)
+   
