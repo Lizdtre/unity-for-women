@@ -41,11 +41,12 @@ Agora poderemos acessar propriedades do jogador como sua posição dentro do scr
 
    ```
 
-   Note que "transform.position" se refere à posição do objeto que possui o script que estamos escrevendo, neste caso a câmera, enquanto "player.transform.position" se refere a posição do jogador
+Note que "transform.position" se refere à posição do objeto que possui o script que estamos escrevendo, neste caso a câmera, enquanto "player.transform.position" se refere a posição do jogador
 
-   Esse código fará com que a câmera se movimente horizontalmente para seguir o personagem, mas não verticalmente
+Esse código fará com que a câmera se movimente horizontalmente para seguir o personagem, mas não verticalmente
 
-   A câmera continuará se movimentando onde quer que formos, podendo expor as partes que não queremos que o jogador veja
+A câmera continuará se movimentando onde quer que formos, podendo expor as partes que não queremos que o jogador veja
+   
    ![GIF bordas da fase](https://cdn.discordapp.com/attachments/1105270961391030293/1138166371155451934/ezgif-5-15d373520c.gif)
 
    
