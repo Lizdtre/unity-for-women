@@ -205,4 +205,20 @@ public class PlayerMovimentation : MonoBehaviour
 }
 ```
 
-
+- O player agora estará pulando, entretanto, como  foi posto um limite, o player ficará pulando eternamente enquanto a barra de espaço estiver pressionada
+- Para limitar seu pulo para 1 vamos criar:
+   - Um variável tipo booleana, iniciamenlte falsa
+     ```C#
+      bool isJumping = false;
+     ```
+   - Adicionar uma segunda condição no if que para entrar na condição a barra de espaço deve estar pressionada E isJumping seja falso
+     ```C#
+       if (Input.GetButton("Jump") && !isJumping) {
+     ```
+   - Criar uma função que torna isJumping = true
+     ```C#
+     private void OnCollisionEnter2D (Collision2D other)
+    {
+        isJumping = false;
+    }
+  ```
