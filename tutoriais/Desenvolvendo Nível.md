@@ -26,6 +26,26 @@ Queremos que a nossa câmera siga o jogador, para isso precisamos saber onde ele
    ```
 
 3. Salvando o código, volte no editor e arraste o objeto jogador até a caixa correspondente à essa variável no inspetor
+   
    ![Linkando um objeto à uma variável pelo editor](https://media.discordapp.net/attachments/1105270961391030293/1138160991784403056/image.png?width=1013&height=411)
   ⚠ Lembre-se desse processo de atribuir componentes/objetos à variáveis públicas pelo editor, não a ilustraremos mais a partir daqui
+
+Agora poderemos acessar propriedades do jogador como sua posição dentro do script da câmera
+
+4. Dentro de Update(), insira o seguinte código:
+   ```C#
+   void Update()
+   {
+      transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
+   }
+
+   ```
+
+   Note que "transform.position" se refere à posição do objeto que possui o script que estamos escrevendo, neste caso a câmera, enquanto "player.transform.position" se refere a posição do jogador
+
+   Esse código fará com que a câmera se movimente horizontalmente para seguir o personagem, mas não verticalmente
+
+   A câmera continuará se movimentando onde quer que formos, podendo expor as partes que não queremos que o jogador veja
+   ![GIF bordas da fase](https://cdn.discordapp.com/attachments/1105270961391030293/1138166371155451934/ezgif-5-15d373520c.gif)
+
    
