@@ -249,5 +249,6 @@ public class PlayerMovimentation : MonoBehaviour
         isJumping = false;
     }
   ```
-      ![jumping](https://cdn.discordapp.com/attachments/1105270961391030293/1138206900123611156/ezgif-5-af5672a76c.gif)
+
+  ![jumping](https://cdn.discordapp.com/attachments/1105270961391030293/1138206900123611156/ezgif-5-af5672a76c.gif)
       
