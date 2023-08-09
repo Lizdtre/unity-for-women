@@ -205,7 +205,7 @@ public class PlayerMovimentation : MonoBehaviour
 }
 ```
 
-- O player agora estará pulando, entretanto, como  foi posto um limite, o player ficará pulando eternamente enquanto a barra de espaço estiver pressionada
+- O player agora estará pulando, entretanto, como não foi posto um limite, o player ficará pulando eternamente enquanto a barra de espaço estiver pressionada
 - Para limitar seu pulo para 1 vamos criar:
    - Um variável tipo booleana, iniciamenlte falsa
      ```C#
