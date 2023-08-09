@@ -3,7 +3,8 @@
 
 ![Nível maior](https://media.discordapp.net/attachments/1105270961391030293/1138155828591988897/image.png?width=987&height=502)
 
-Podemos expandir o nível já criado utilizando as ferramentas que já vimos anteriormente. Lembre-se de manter a organização dos blocos do chão e dos planos de fundo.
+Podemos expandir o nível já criado utilizando as ferramentas que já vimos anteriormente.
+Lembre-se de manter a organização dos blocos do chão e dos planos de fundo.
 
 ## Movimento da câmera
 
