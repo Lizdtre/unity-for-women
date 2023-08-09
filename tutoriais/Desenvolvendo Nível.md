@@ -52,7 +52,8 @@ A câmera continuará se movimentando onde quer que formos, podendo expor as par
    
    ![GIF bordas da fase](https://cdn.discordapp.com/attachments/1105270961391030293/1138166371155451934/ezgif-5-15d373520c.gif)
 
-5. Para resolver isso, definimos limites ao movimento da câmera
+5. Para resolver isso, definimos limites ao movimento da câmera, permiindo que ele se mova somente a partir de pontos específicos de x.
+   - Nesse caso a câmera só irá mexer quando ela estiver entre a posição 0 e 50 de x.
    ```C
    public class CameraMovimentation : MonoBehaviour
    {
