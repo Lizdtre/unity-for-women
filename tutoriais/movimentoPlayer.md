@@ -212,10 +212,14 @@ public class PlayerMovimentation : MonoBehaviour
       bool isJumping = false;
      ```
    - Adicionar uma segunda condição no if em que: Para entrar na condição a barra de espaço deve estar pressionada E isJumping seja falso
+   - Dentro da condição if vamos tornar isJumping verdadeiro para que a condição não pule mais de uma vez
      ```C#
        if (Input.GetButtonDown("Jump") && !isJumping) {
+
+      		isJumping = true;
+        }
      ```
-   - Criar uma função para quando ocorrer colisão, e usar para tornar isJumping = true
+   - Criar uma função para quando ocorrer colisão, e usar-lá para tornar isJumping falso
      ```C#
      private void OnCollisionEnter2D (Collision2D other) {
         isJumping = false;
