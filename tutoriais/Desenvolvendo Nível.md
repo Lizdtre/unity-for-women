@@ -54,6 +54,7 @@ A câmera continuará se movimentando onde quer que formos, podendo expor as par
 
 5. Para resolver isso, definimos limites ao movimento da câmera, permiindo que ele se mova somente a partir de pontos específicos de x.
    - Nesse caso a câmera só irá mexer quando ela estiver entre a posição 0 e 50 de x.
+     
    ```C
    public class CameraMovimentation : MonoBehaviour
    {
