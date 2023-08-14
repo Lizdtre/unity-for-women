@@ -140,6 +140,10 @@ Para detectar que tocamos na moeda, o Unity possui um método (Assim como Start(
       }
    }
    ```
+## Modificando o movimento
+Até agora, o nosso jogador tem a capacidade de fazer um único pulo... mas poderiamos ter mais possibilidades de design de nível se o jogador tivesse um pulo duplo.
+Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazendo com que os pulos só resetem quando o jogador pisar no chão.
+
 
 
 
