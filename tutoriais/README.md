@@ -4,7 +4,7 @@ Nessa pasta vamos disponibilizar os tutoriais em texto .
 Cada tutorial possuirá uma entrada, que são os arquivos e estados a partir dos quais o tutorial se inicia; e uma saída, que é o que foi produzido.
 Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou scripts necessários.
 
-(./)[Como usar as entradas/saídas]
+[Como usar as entradas/saídas](./)
 
 ## [Configuração do Ambiente](./Ambiente.md)
   - Download e instalação do Unity
@@ -51,7 +51,7 @@ Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou s
   Expandimos o primeiro nível e adicionamos um objetivo final, adicionamos também movimento a câmera.
 
 ### Entrada
-  - Parte II
+  - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20II)
 
 ### Saída
   - [Parte III](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20III)
