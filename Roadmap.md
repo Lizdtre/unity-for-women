@@ -7,9 +7,8 @@ Gênero: jogo de plataforma
 
 Asset:
 
-[Free Platform Game Assets - Bayat Games](https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838)
-
-[Sound FX - Retro Pack](https://assetstore.unity.com/packages/audio/sound-fx/sound-fx-retro-pack-121743)
+- [Free Platform Game Assets - Bayat Games](https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838)
+- [Sound FX - Retro Pack](https://assetstore.unity.com/packages/audio/sound-fx/sound-fx-retro-pack-121743)
 
 Repositório: 
 
