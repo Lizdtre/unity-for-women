@@ -1,40 +1,59 @@
 # Tutoriais
 
-Nessa pasta vamos disponibilizar vários tutoriais para utilizar e customizar o material produzido no workshop.
-Cada parte possuirá uma entrada, que serão os pré-requisitos do tutorial; e uma saída, que é o que foi produzido.
-Com excessão da configuração do ambiente, todos os tutoriais necessitarão como parte da entrada o projeto encontrado em https://github.com/Duerno/unity-for-women-at-unb.
-Cada tutorial vai então especificar arquivos de cena, assets e/ou scripts que devem ser adicionados no projeto.
+Nessa pasta vamos disponibilizar os tutoriais em texto .
+Cada tutorial possuirá uma entrada, que são os arquivos e estados a partir dos quais o tutorial se inicia; e uma saída, que é o que foi produzido.
+Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou scripts necessários.
+
+(./)[Como usar as entradas/saídas]
 
 ## [Configuração do Ambiente](./Ambiente.md)
-  Download e instalação do Unity e primeiros passos
-  
+  - Download e instalação do Unity
+  - Download do repositório
+  - Primeiros passos com o editor
+
+### Entrada
+  - Nada
+
+### Saída
+  - Unity e Visual Studio instalados
+    
 ## [Criação do Primeiro Nível](./primeiroNivel.md)
-  Esse tutorial envolve a criação do nível na criação dos Sprite Renderers usando os assets disponibilizados
+  - Aquisição dos assets disponibilizados pelo workshop
+  - Criação do primeiro nível com Sprite Renderers
   
 ### Entrada
-  - Somente o projeto base
+  - Unity e Visual Studio instalados
   
 ### Saída
-  - [Parte I](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20I) , nível básico com chão, background e jogador posicionados.
+  - [Parte I](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20I)
 
 ## [Movimentação do Jogador](./movimentoPlayer.md)
-
-  Criamos os primeiros scripts para movimentação do jogador, vendo também como configurar e detectar inputs do teclado.
+  - Adição de Components à objetos
+  - Adição de Física básica
+  - Detecção de inputs do teclado
+  - Criação de scripts
+  - Adição de movimento ao jogador
+    - Movimento horizontal
+    - Pulo 
 
 ### Entrada
-  - Parte I
+  - [Parte I](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20I)
     
 ### Saída
-  - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20II) , jogador capaz de se mover horizontalmente e pular.
+  - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20II)
 
 ## [Desenvolvimento do nível](./Desenvolvendo%20Nível.md)
-
+  - Expansão do nível e adição de obstáculos
+  - Adição de movimento à Câmera
+    - Câmera seguindo o jogador horizontalmente
+    - Limites de movimento da câmera
+  - Modificação do pulo do jogador
   Expandimos o primeiro nível e adicionamos um objetivo final, adicionamos também movimento a câmera.
 
 ### Entrada
   - Parte II
 
 ### Saída
-  - [Parte III](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20III) , nível com desafio de platforming e moeda indicando o final da fase
+  - [Parte III](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20III)
 
 
