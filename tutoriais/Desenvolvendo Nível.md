@@ -167,8 +167,7 @@ Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazen
   ```
    - "maxJump" define quanto pulos podemos realizar
    - "multiJump" será atulizada a cada pulo dado
-   
-   - Iremos alterar a condição if para pular
+   - Agora, iremos alterar a condição if para pular
   
   ```C#
    if (Input.GetButtonDown("Jump") && multiJump < maxJump) // Se barra de espaço foi apertada E pulos disponíveis < pulos máximo
