@@ -48,7 +48,6 @@ Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou s
     - Câmera seguindo o jogador horizontalmente
     - Limites de movimento da câmera
   - Modificação do pulo do jogador
-  Expandimos o primeiro nível e adicionamos um objetivo final, adicionamos também movimento a câmera.
 
 ### Entrada
   - [Parte II](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20II)
