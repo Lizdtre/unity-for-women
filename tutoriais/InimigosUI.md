@@ -48,4 +48,19 @@
   ⚠ Note que simplesmente fazer "transform.position == endPosition" não vai funcionar devido as posições serem floats, é possível que o inimigo ultrapasse a posição final sem que a condição se torne verdadeira
 
   ![]() INSIRA GIF AQUI
+
+### Prefabs
+  Agora que temos nosso objeto inimigo criado, podemos querer ter varios inimigos idênticos espalhados pela fase, todos com as mesmas propriedades.
+
+  Podemos fazer isso simplesmente copiando e colando o inimigo por ai, mas uma forma muito mais prática é tornar o inimigo em um prefab(pre-fabricated object), um inimigo pronto que podemos adicionar à fase sempre que precisarmos.
+
+  Outra vantagem de prefabs é que alterações ao prefab se aplicam a todas as suas instâncias na fase, ou seja, podemos, por exemplo, mudar o sprite do inimigo alterando somente o prefab, sem ter que achar todos os inimigos no nível e alterar seus sprites individualmente(também é possivel modificar instâncias expecíficas de prefabs).
+
+  1. Para fazer isso, simplesmente arraste seu objeto inimigo da Hierarchy para o local desejado na janela Project
+
+  Se tudo der certo, o inimigo irá aparecer dentre os seus arquivos e o inimigo já existente ficará com texto azul
+
+  ![Criação de prefab](https://cdn.discordapp.com/attachments/1105270961391030293/1141493724061388880/image.png)
+  
+  
 ## UI
