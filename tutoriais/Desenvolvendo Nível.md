@@ -144,8 +144,35 @@ Para detectar que tocamos na moeda, o Unity possui um método (Assim como Start(
 Até agora, o nosso jogador tem a capacidade de fazer um único pulo... mas poderiamos ter mais possibilidades de design de nível se o jogador tivesse um pulo duplo.
 Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazendo com que os pulos só resetem quando o jogador pisar no chão.
 
+### Muiltiplos pulos
+- Para fazer o player realizar multiplos pulos vamos alterar a variável de condição booleana "isJumping" para 2 variáveis interias
+  
+  ```C#
+   public int multiJump = 0;
+   public int maxJump = 3;
+  ```
+   - "maxJump" define quanto pulos podemos realizar
+   - "multiJump" será atulizada a cada pulo dado
+   
+   -  
+  
+  ```C#
+  ```
+
+  
+  ```C#
+  ```
+
+  
+  ```C#
+  ```
 
 ### Chão reset
-   
+ - Para fazer o reset pelo chão vamos fazer o sequinte código:
 
-### Muiltiplos pulos
+```C#
+   if (other.contacts[0].normal == Vector2.up){} //Se tocar no chão reseta pulo
+```   
+- Essa condição diz que quando o player entrar em colisão essa colisão tem que ser do chão (O vetor "up" ocorre por que o Vetor é criado na direção oposta de onde ocorreu o contato) 
+
+
