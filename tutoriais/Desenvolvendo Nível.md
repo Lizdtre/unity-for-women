@@ -187,10 +187,7 @@ Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazen
      }
   }
   ```
-
-  
-  ```C#
-  ```
+ - Assim o player é capaz de dar múltiplos pulos no ar.
 
 
 
