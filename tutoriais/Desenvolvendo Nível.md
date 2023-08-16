@@ -175,7 +175,7 @@ Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazen
    multiJump += 1;
   }
   ```
-   - Assim os multiplos pulos pode acontecern enquanto o multiJump não ultrapassar o limite
+   - Assim os multiplos pulos pode acontecer enquanto o multiJump não ultrapassar o limite
    - A cada pulo dado vamos acresentar +1 para multiJump
   
   ```C#
