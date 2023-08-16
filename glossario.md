@@ -23,7 +23,7 @@
  Se precisar fazer o seu, de uma olhadinha aqui: [Como (e quando) criar um GDD: formatos, dicas e exemplos práticos.](https://producaodejogos.com/gdd/)
 
 ## H
-* __hud__: Sigla em inglês para “Heads up Display”. Refere a todas informações na tela do jogo que auxiliam o jogador, como menus, mapas, barras de energia, tempo etc.
+* __hud__: Sigla em inglês para “Heads up Display”. Refere a todas informações na tela do jogo que auxiliam o jogador, como mapas, barras de vida, tempo etc.
 
 * __hitbox__: Um formato invisível utilizado para detectar colisões entre objetos.
 ## I
@@ -59,6 +59,7 @@
 ## T
 
 ## U
+  * __ui__: Sigla em inglês para "User Interface", são menus e informações que existem fora do "universo" do jogo, e só aparecem para o jogador, inclui o HUD e outras coisas como o menu principal, tela de pausa, legendas, etc.
 
 ## V
 
