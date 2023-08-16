@@ -20,7 +20,7 @@
   ```
   Sabemos que isso fará o inimigo se deslocar para a direita infinitamente, para definir os limites do seu movimento, crie as seguintes variáveis no início da classe
 
-  ```C#
+  ```Cs
   public Vector3 startPosition;
   public Vector3 endPosition;
   ```
