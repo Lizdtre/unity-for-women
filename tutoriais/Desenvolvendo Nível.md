@@ -145,6 +145,7 @@ Até agora, o nosso jogador tem a capacidade de fazer um único pulo... mas pode
 Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazendo com que os pulos só resetem quando o jogador pisar no chão.
 
 
-
-
+### Chão reset
    
+
+### Muiltiplos pulos
