@@ -60,6 +60,7 @@ Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou s
     - Rota de Patrulha (anda de um lado pro outro)
     - Dá dano ao jogador
   - UI com vida
+  - Uso de prefabs
 
 ### Entrada
   - [Parte III](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20III)
