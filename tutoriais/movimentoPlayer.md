@@ -205,4 +205,54 @@ public class PlayerMovimentation : MonoBehaviour
 }
 ```
 
+- O player agora estará pulando, entretanto, como não foi posto um limite, o player ficará pulando eternamente enquanto a barra de espaço estiver pressionada
+- Para limitar seu pulo para 1 vamos criar:
+   - Um variável tipo booleana, iniciamenlte falsa
+     ```C#
+      bool isJumping = false;
+     ```
+   - Adicionar uma segunda condição no if em que: Para entrar na condição a barra de espaço deve estar pressionada E isJumping seja falso
+   - Dentro da condição if vamos tornar isJumping verdadeiro para que a condição não pule mais de uma vez
+     ```C#
+       if (Input.GetButtonDown("Jump") && !isJumping) {
 
+      		isJumping = true;
+        }
+     ```
+   - Criar uma função para quando ocorrer colisão, e usar-lá para tornar isJumping falso
+     ```C#
+     private void OnCollisionEnter2D (Collision2D other) {
+        isJumping = false;
+    	}
+     ```
+
+- O resultado final deve ficar assim
+  ```C#
+  void Update(){
+
+        var x = Input.GetAxis("Horizontal");
+        rigidBody.velocity = new Vector2(x*speed, rigidBody.velocity.y); // todo frame a velocidade do rigidbody= velocidade horizontal, velociade vertical permanece a mesma
+
+        // Entre na condição quando apertar a barra de espaço E isJumping = false
+        if (Input.GetButtonDown("Jump") && !isJumping) 
+        {
+
+            Debug.Log("Jump"); // Quando pular escreve "Jump" no Debug Log
+
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed); // velociade do rigidbody = velocidade vertical*velocidade pulo 
+
+            isJumping = true;
+        }
+
+       
+
+    }
+
+    private void OnCollisionEnter2D (Collision2D other) // Função chamada quando player entra em colisão
+    {
+        isJumping = false;
+    }
+  ```
+
+  ![jumping](https://cdn.discordapp.com/attachments/1105270961391030293/1138206900123611156/ezgif-5-af5672a76c.gif)
+      
