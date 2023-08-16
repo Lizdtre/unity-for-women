@@ -60,7 +60,7 @@
 
   Se tudo der certo, o inimigo irá aparecer dentre os seus arquivos e o inimigo já existente ficará com texto azul
 
-  ![Criação de prefab](https://cdn.discordapp.com/attachments/1105270961391030293/1141493724061388880/image.png)
+  ![Criação de prefab](https://cdn.discordapp.com/attachments/1105270961391030293/1141494091641798718/image.png)
   
   
 ## UI
