@@ -67,7 +67,7 @@
 
   1. Vamos primeiro adicionar HP ao script do jogador
   ```C#
-  public float hp
+  public float hp;
   ```
 
   2. Agora queremos detectar quando o jogador colide, expecificamente, com um inimigo, 
