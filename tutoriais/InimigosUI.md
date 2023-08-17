@@ -62,5 +62,13 @@
 
   ![Criação de prefab](https://cdn.discordapp.com/attachments/1105270961391030293/1141494091641798718/image.png)
   
-  
+## Dano
+  Precisamos que os inimigos interajam com o jogador de alguma forma, a mais clássica sendo que eles dêem reduzam a vida do jogador
+
+  1. Vamos primeiro adicionar HP ao script do jogador
+  ```C#
+  public float hp
+  ```
+
+  2. Agora queremos detectar quando o jogador colide, expecificamente, com um inimigo, 
 ## UI
