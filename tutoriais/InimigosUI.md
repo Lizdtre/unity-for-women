@@ -47,7 +47,6 @@
   
   ⚠ Note que simplesmente fazer "transform.position == endPosition" não vai funcionar devido as posições serem floats, é possível que o inimigo ultrapasse a posição final sem que a condição se torne verdadeira
 
-  ![]() INSIRA GIF AQUI
 
 ### Prefabs
   Agora que temos nosso objeto inimigo criado, podemos querer ter varios inimigos idênticos espalhados pela fase, todos com as mesmas propriedades.
@@ -67,8 +66,16 @@
 
   1. Vamos primeiro adicionar HP ao script do jogador
   ```C#
-  public float hp;
+  public float hp = 100.0f;
   ```
 
-  2. Agora queremos detectar quando o jogador colide, expecificamente, com um inimigo, 
+  Agora queremos detectar quando o jogador colide, expecificamente, com um inimigo.
+  
+  Para isso, precisamos definir o que é um inimigo
+
+  2. No inspector do inimigo, atribua a ele uma tag (pode ser a tag "Enemy" existente ou uma nova)
+  ![Seletor de tags](https://media.discordapp.net/attachments/1105270961391030293/1142572597205291078/image.png?width=316&height=360)
+
+  
+  
 ## UI
