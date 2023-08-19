@@ -78,13 +78,23 @@
 
   3. No script do jogador, adicione o seguinte código dentro de OnCollisionEnter()
   ```C#
-  if (other.gameObject.CompareTag("Enemy"))
-  {    
-    playerHealth -= 20;
-    Debug.Log("OUCH " + playerHealth);
+  private void OnCollisionEnter2D(Collision2D other)
+  {
+      if (other.contacts[0].normal == Vector2.up)
+      {
+          currentJumps = 0;
+
+          //isJumping = false;
+      }
+
+      if (other.gameObject.CompareTag("Enemy"))
+      {
+          
+          playerHealth -= 20;
+          Debug.Log("OUCH " + playerHealth);
+      }
   }
   ```
-
   Colidir com o inimigo reduzira a vida do jogador em 20 e escrevera uma mensagem no console com sua vida atual.
 
 ## UI
@@ -105,3 +115,41 @@
 
   ![ui no jogo](https://cdn.discordapp.com/attachments/1105270961391030293/1142581361811660860/image.png)
 
+
+  5. Dentro do script do jogador, nas primeiras linhas, insira o seguinte código
+  ```C#
+  using UnityEngine.UI;
+  ```
+
+  6. Declare a seguinte variável pública
+  ```C#
+  public Text playerHealtText;
+  ```
+
+  (Defina essa variável no editor arrastando o objeto texto até a caixinha no script do jogador)
+
+  7. Dentro de if em OnCollisionEnter(), faça a seguinte alteração (dentro do segundo 'if')
+  ```C#
+  private void OnCollisionEnter2D(Collision2D other)
+  {
+      if (other.contacts[0].normal == Vector2.up)
+      {
+          currentJumps = 0;
+
+          //isJumping = false;
+      }
+
+      if (other.gameObject.CompareTag("Enemy"))
+      {
+          
+          playerHealth -= 20;
+          Debug.Log("OUCH " + playerHealth);
+          playerHealtText.text = ("HP: " + playerHealth);
+
+      }
+  }
+  ```
+
+  Agora a vida no HUD irá atualizar sempre que o player tomar dano! (mas note que nada a impede de ficar negativa)
+
+  ![GIF inimigos dando dano e HUD](https://cdn.discordapp.com/attachments/1105270961391030293/1142605299207909426/ezgif-3-778c9964c2.gif)
