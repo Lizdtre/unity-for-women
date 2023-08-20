@@ -4,7 +4,7 @@ Nessa pasta vamos disponibilizar os tutoriais em texto .
 Cada tutorial possuirá uma entrada, que é o ponto de partida do tutorial; e uma saída, que é o que foi produzido.
 Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou scripts necessários.
 
-[Como usar as entradas/saídas](./)
+[Como usar as entradas/saídas](./) A FAZER
 
 Termos e expressões de programação/gamedev usados podem ser vistos no [Glossário](../glossario.md)
 
