@@ -144,8 +144,11 @@ Para detectar que tocamos na moeda, o Unity possui um método (Assim como Start(
 Até agora, o nosso jogador tem a capacidade de fazer um único pulo... mas poderiamos ter mais possibilidades de design de nível se o jogador tivesse um pulo duplo.
 Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazendo com que os pulos só resetem quando o jogador pisar no chão.
 
+Antes disso, podemos também impedir que o jogador gire marcando a seguinte caixa em seu RigidBody2D
 
-### Chão reset
+![Freeze Rotation](https://cdn.discordapp.com/attachments/1105270961391030293/1142611945812414494/image.png)
+
+### Resetar pulo somente no chão
  - Para fazer o reset pelo chão vamos fazer o sequinte código:
 
 ```C#
