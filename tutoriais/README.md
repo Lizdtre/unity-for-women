@@ -1,10 +1,12 @@
 # Tutoriais
 
 Nessa pasta vamos disponibilizar os tutoriais em texto .
-Cada tutorial possuirá uma entrada, que são os arquivos e estados a partir dos quais o tutorial se inicia; e uma saída, que é o que foi produzido.
+Cada tutorial possuirá uma entrada, que é o ponto de partida do tutorial; e uma saída, que é o que foi produzido.
 Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou scripts necessários.
 
-[Como usar as entradas/saídas](./)
+[Como usar as entradas/saídas](./) A FAZER
+
+Termos e expressões de programação/gamedev usados podem ser vistos no [Glossário](../glossario.md)
 
 ## [Configuração do Ambiente](./Ambiente.md)
   - Download e instalação do Unity
@@ -55,4 +57,15 @@ Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou s
 ### Saída
   - [Parte III](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20III)
 
+## [Inimigos e UI](./InimigosUI.md)
+  - Criação de um inimigo
+    - Rota de Patrulha (anda de um lado pro outro)
+    - Dá dano ao jogador
+  - UI com vida
+  - Uso de prefabs
 
+### Entrada
+  - [Parte III](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20III)
+
+### Saída 
+  - [Parte IV](https://github.com/Lizdtre/unity-for-women/tree/master/workshop/Assets/Part%20IV)
