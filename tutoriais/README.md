@@ -6,6 +6,8 @@ Cada tutorial vai então especificar arquivos de cena, materiais, prefabs e/ou s
 
 [Como usar as entradas/saídas](./)
 
+Termos e expressões de programação/gamedev usados podem ser vistos no [Glossário](../glossario.md)
+
 ## [Configuração do Ambiente](./Ambiente.md)
   - Download e instalação do Unity
   - Download do repositório
