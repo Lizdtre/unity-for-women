@@ -19,17 +19,14 @@ Disponivel [aqui](./glossario.md)
 
 # [Tutoriais](./tutoriais#tutoriais)
 
-[Configuração do ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
+- [Configuração do ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
 
-[Criação do primeiro nível](./tutoriais/primeiroNivel.md)
+- [Criação do primeiro nível](./tutoriais/primeiroNivel.md)
 
-[Adicionar moedas](../adiciona-moedas/tutoriais)
+- [Movimento do jogador](./tutoriais/movimentoPlayer.md)
 
-[Variação de inimigos](../variacao_inimigos/tutoriais)
+- [Desenvolvimento do nível](./tutoriais/Desenvolvendo%20Nível.md)
 
-[Adicionar música](../adicionando_musica/tutoriais)
-
-[Animação de pulo](../animacao-pulo/tutoriais)
-
-
+- [Inimigos e UI](./tutoriais/InimigosUI.md)
+  
 # Como contribuir
