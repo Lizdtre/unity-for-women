@@ -19,6 +19,14 @@ Disponivel [aqui](./glossario.md)
 
 # [Tutoriais](./tutoriais#tutoriais)
 
-### [Configuração do Ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
+- [Configuração do Ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
 
+- [Criação do primeiro nível](./tutoriais/primeiroNivel.md)
+
+- [Movimento do jogador](./tutoriais/movimentoPlayer.md)
+
+- [Desenvolvimento do nível](./tutoriais/Desenvolvendo%20Nível.md)
+
+- [Inimigos e UI](./tutoriais/InimigosUI.md)
+  
 # Como contribuir
