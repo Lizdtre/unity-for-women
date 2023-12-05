@@ -19,7 +19,7 @@ Disponivel [aqui](./glossario.md)
 
 # [Tutoriais](./tutoriais#tutoriais)
 
-- [Configuração do ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
+- [Configuração do Ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
 
 - [Criação do primeiro nível](./tutoriais/primeiroNivel.md)
 
