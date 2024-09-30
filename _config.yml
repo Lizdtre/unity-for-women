@@ -22,12 +22,12 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
-title: 'My website'
-description: 'This is my new website'
-permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+url: 'https://laisczt.github.io'
+baseurl: '/unity-for-women'
+title: 'Unity for Women'
+description: 'Workshop para desenvolvimento de jogos em Unity'
+#permalink: pretty
+logo: "https://avatars.githubusercontent.com/u/65633036?s=200&v=4"
 
 # Pagination
 paginate: 5
