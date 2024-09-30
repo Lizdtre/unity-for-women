@@ -1,32 +1,9 @@
-# Unity for Women
+# Starter kit for [Alembic](https://alembic.darn.es/)
 
-O repositório tem um tutorial, passo a passo, para fazer seu primeiro jogo em Unity3D.
+This is a very simple starting point if you wish to use Alembic [as a Jekyll theme gem](https://alembic.darn.es/#as-a-jekyll-theme) or as a [GitHub Pages remote theme](https://github.com/daviddarnes/alembic-kit/tree/remote-theme) (see `remote-theme` branch).
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
 
-# Objetivo
+or
 
-O objetivo do workshop é percorrer pelas principais funcionalidades do Unity3D  em um jogo 2D. 
-
-Telas do workshop
-
-# Roadmap do tutorial
-
-Disponível [aqui](./RoadmapWorkshop.md)
-
-# Glossario
-
-Disponivel [aqui](./glossario.md)
-
-# [Tutoriais](./tutoriais#tutoriais)
-
-- [Configuração do Ambiente(Unity e IDE)](./tutoriais/Ambiente.md)
-
-- [Criação do primeiro nível](./tutoriais/primeiroNivel.md)
-
-- [Movimento do jogador](./tutoriais/movimentoPlayer.md)
-
-- [Desenvolvimento do nível](./tutoriais/Desenvolvendo%20Nível.md)
-
-- [Inimigos e UI](./tutoriais/InimigosUI.md)
-  
-# Como contribuir
+**[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
