@@ -1,5 +1,5 @@
 ---
-title: About this website
+title: Sobre
 ---
 
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+A Unity for Women é uma workshop em Unity da Big Open Source Sibling, tendo como objetivo promover a participação de mulheres e minorias na área de desenvolvimento de jogos.
