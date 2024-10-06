@@ -1,36 +1,34 @@
 ---
 layout: post
 title: Movimento do Jogador
-date:   2024-01-04 12:00:00 -0300
+date:   2024-01-03 12:00:00 -0300
 ---
-# Adicionando movimento ao jogador
+Adicionando movimento ao jogador
 
 ## Adicionando física
 
 ### Colisão
-- Antes de adicionar a física, os objetos precisam ser capazes de interagir entre si, para isso os daremos um corpo físico
+Antes de adicionar a física, os objetos precisam ser capazes de interagir entre si, para isso os daremos um corpo físico
 
 ### Corpo físico
 
-1. Selocione o seu objeto player
+1. Selecione o seu objeto player
 2. Clique na opção "add component"
 3. Procure pela opção "Rigidbody 2D"
-  O player terá fisica
+
+Esse componente permite modificar a gravidade, atrito, resistência do ar e outros parâmetros.
 
 ### Colisões
 
-- Essa estrutura tem que ser adicionada para ambos player e chão
-  
+Caixas de colisão definem o formato do corpo físico dos objetos, devem ser adicionadas tanto ao jogador como ao chão
+
 1. Vá nas características do objeto novamente
 2. Adicione um componente
 3. Procure por "Box Collider 2D"
 4. Clique para editar a caixa de colisão
-
-  ![Botão de editar collider](https://media.discordapp.net/attachments/1105270961391030293/1124346156546273330/image.png?width=416&height=316)
+  ![Botão de editar collider](../../../img/edithitbox.png)
 
 5. Tente deixar a caixa de colisão o mais próximo o possível do formato dos objetos
-
-⚠ Certifique-se que o player e o chão estão na mesma camada em Z, ou a colisão não irá funcionar
 
 Ao rodar o jogo agora, o player terá gravidade e colidirá com o chão a cair, porém, ainda não temos controle sobre ele
 
@@ -91,14 +89,14 @@ public class PlayerMovimentation : MonoBehaviour
 
   Variáveis definidas com "public" podem ser acessadas diretamente pelo editor Unity
 
-  ![Editando a variável durante execução](https://cdn.discordapp.com/attachments/1105270961391030293/1126910382817161257/ezgif-2-6ec952770d.gif)
+  ![Editando a variável durante execução](../../../img/varsineditor.png)
 
 ### Inputs
 1. No canto superior esquerdo, clique em edit > Project Settings
 2. Na nova janela aberta, clique em Input Manager > Axes > Horizontal
 3. Defina os botões negativo e positivo com as teclas que quiser usar para mover o player para a esquerda e para a direita, respectivamente
 
-  ![Input Maganer](https://cdn.discordapp.com/attachments/1105270961391030293/1126883320458924102/image.png)
+  ![Input Maganer](../../../img/inputmanager.png)
 
 Para permitir que o player seja controlado pelo teclado, fazemos essa modificação dentro de Update()
   
@@ -114,7 +112,7 @@ void Update()
 }
 ```
 
-   ![Player sendo controlado pelo teclado](https://media.discordapp.net/attachments/1105270961391030293/1126913829171904593/ezgif-2-1672155832.gif?width=719&height=404)
+   ![Player sendo controlado pelo teclado](../../../img/keyboardmove.gif)
    
 ## Movimento por Rigidbody2D
 Outra maneira de fazer a movimentação do jogador é utilizando seu componente Rigidbody2D, que dita sua velocidade
@@ -142,7 +140,7 @@ void Start()
 
 3. Depois de salvar o script, no Unity você verá uma nova variável no componente script do jogador com um valor "None". Para arrumar isso, clique e segure o RigidBody2D do jogador e leve-o até aquela caixa.
 
-	![Arrastando o componente](https://cdn.discordapp.com/attachments/1105270961391030293/1129450931445051432/this_one.png)
+	![Arrastando o componente](../../../img/draggingcomponents.png)
 
 5. Para movimentar o jogador através do Rigidbody2D, escreva o seguinte código em Update()
 ```C#
@@ -180,7 +178,7 @@ void Update()
 
 Quando apertarmos o botão de pulo, uma mensagem aparecerá no console de debug
 
-![Console de Debug](https://media.discordapp.net/attachments/1105270961391030293/1129453759194468443/image.png?width=599&height=508)
+![Console de Debug](../../../img/console.png)
 
 3. Dentro da condição if, insira o seguinte código
 ```C#
@@ -243,7 +241,7 @@ public class PlayerMovimentation : MonoBehaviour
 
             Debug.Log("Jump"); // Quando pular escreve "Jump" no Debug Log
 
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed); // velociade do rigidbody = velocidade vertical*velocidade pulo 
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpSpeed); // mantemos a velocidade horizontal e alteramos a vertical
 
             isJumping = true;
         }
@@ -258,5 +256,5 @@ public class PlayerMovimentation : MonoBehaviour
     }
   ```
 
-  ![jumping](https://cdn.discordapp.com/attachments/1105270961391030293/1138206900123611156/ezgif-5-af5672a76c.gif)
+  ![jumping](../../../img/jumping.gif)
       

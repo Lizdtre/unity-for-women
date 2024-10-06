@@ -57,8 +57,7 @@ Começaremos baixando e instalando o Unity.
    
    1. Baixe [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/)(é nescessário ter uma conta microsoft)
    2. Ao configurar a instalação, selecione a carga de trabalho para Unity
-
-![Carga de trabalho Unity](../../../img/cargatrabalho.png)
+   ![Carga de trabalho Unity](../../../img/cargatrabalho.png)
 
    3. Dentro do unity vá em Edit>Preferences>External Tools>External Script Editor e selecione "Microsoft Visual Studio 2022"
 
@@ -80,17 +79,15 @@ Começaremos baixando e instalando o Unity.
    - Clicando no objeto câmera mostra a parte do ambiente 3D que será mostrada no jogo (Também pode ser visto através da aba "Game")
      
 ### Obejeto e Componente
-   1. Para criar seu primeiro objeto:
-      - Na aba "Hierarchy" à esquerda, clique com o botão direito e selecione 3D Object > Cube
 
-![Criando um cubo](../../../img/createcube.png)
+   1. Para criar nosso primeiro objeto, clique com o botão direito na aba "Hierarchy" à esquerda, em seguida selecione 3D Object > Cube
+   ![Criando um cubo](../../../img/createcube.png)
 
    2. Para adicionar física ao seu objeto, utilizaremos um componente chamado RigidBody:
       - Clique no objeto para exibir seus componentes na aba “Inspector” na direita 
       - Clique em “Add Component” no fim da aba
       - Busque e adicione a opção RigidBody
-
- ![Selecionando o RigidBody para o cubo](../../../img/rigidbody.png)
+   ![Selecionando o RigidBody para o cubo](../../../img/rigidbody.png)
 
 ### Testar jogo
    - Verifique na perspectiva de jogo para confirmar se o cubo está visível em tela

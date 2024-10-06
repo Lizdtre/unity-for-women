@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inimigos e UI
-date:   2024-01-03 12:00:00 -0300
+date:   2024-01-04 12:00:00 -0300
 ---
 
 ### Inimigos
@@ -9,15 +9,12 @@ date:   2024-01-03 12:00:00 -0300
 
   1. Crie um novo objeto e dê o sprite que quiser
   2. Adicione um Collider2D e customize o formato
-
   ![Inimigo com collider](https://cdn.discordapp.com/attachments/1105270961391030293/1141479279109079193/image.png)
-
-  Queremos que esse inimigo fique andando de um lado para o outro, se movendo até uma posição expecífica e trocando de direção
-
+  Queremos que esse inimigo fique andando de um lado para o outro, se movendo até uma posição expecífica e trocando de direção	
   3. Crie um novo script de movimentação para seu inimigo
   4. Insira o seguinte código dentro de Update() (e defina a variável speed no início da classe)
   ```C#
-  update()
+  void Update()
   {
     transform.position += Vector3.right * speed;
   }
@@ -33,7 +30,7 @@ date:   2024-01-03 12:00:00 -0300
 
   E adicione este código em Update()
   ```C#
-  Update()
+  void Update()
   {
     transform.position += Vector3.right * speed * direction;
 
