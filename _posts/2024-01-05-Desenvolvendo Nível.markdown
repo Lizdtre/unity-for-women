@@ -4,7 +4,6 @@ title: Desenvolvendo o nível
 date:   2024-01-05 12:00:00 -0300
 ---
 
-# Desenvolvendo um nível
 ## Expandindo a fase
 
 ![Nível maior](../../../img/level_expanded.png)
@@ -95,7 +94,7 @@ Com as mecânicas básicas de movimento feitas, agora você pode criar um nível
 
 2. Adicione também um objeto, como uma moeda, para ser o objetivo da fase
 
-   ![Fase com obstáculos e objetivo](https://media.discordapp.net/attachments/1105270961391030293/1138173132260257873/image.png)
+   ![Fase com obstáculos e objetivo](../../../img/level_expanded.png)
 
 Você pode ter percebido que ao pular e colidir com o lado de um bloco, o jogador gruda e para de cair, isso é porque os colliders possuem atrito, que por padrão é bem alto
 
@@ -152,7 +151,7 @@ Podemos também, caso desejarmos, impedir que o jogador faça "wall jump", fazen
 
 Antes disso, podemos também impedir que o jogador gire marcando a seguinte caixa em seu RigidBody2D
 
-![Freeze Rotation](https://cdn.discordapp.com/attachments/1105270961391030293/1142611945812414494/image.png)
+![Freeze Rotation](../../../img/freeze.png)
 
 ### Resetar pulo somente no chão
  - Para fazer o reset pelo chão vamos fazer o sequinte código:
