@@ -7,7 +7,7 @@ date:   2024-01-05 12:00:00 -0300
 # Desenvolvendo um nível
 ## Expandindo a fase
 
-![Nível maior](https://media.discordapp.net/attachments/1105270961391030293/1138155828591988897/image.png?width=987&height=502)
+![Nível maior](../../../img/level_expanded.png)
 
 - Podemos expandir o nível já criado utilizando as ferramentas que já vimos anteriormente.
 - Lembre-se de manter a organização dos blocos do chão e dos planos de fundo.
@@ -34,7 +34,8 @@ Queremos que a nossa câmera siga o jogador, para isso precisamos saber onde ele
 
 3. Salvando o código, volte no editor e arraste o objeto jogador até a caixa correspondente à essa variável no inspetor
    
-   ![Linkando um objeto à uma variável pelo editor](https://media.discordapp.net/attachments/1105270961391030293/1138160991784403056/image.png?width=1013&height=411)
+   ![Linkando um objeto à uma variável pelo editor](../../../img/player_attach.png)
+   
   ⚠ Lembre-se desse processo de atribuir componentes/objetos à variáveis públicas pelo editor, não a ilustraremos mais a partir daqui
 
 Agora poderemos acessar propriedades do jogador como sua posição dentro do script da câmera
@@ -56,7 +57,7 @@ Esse código fará com que a câmera se movimente horizontalmente para seguir o 
 A câmera continuará se movimentando onde quer que formos, podendo expor as partes que não queremos que o jogador veja
 
    
-   ![GIF bordas da fase](https://cdn.discordapp.com/attachments/1105270961391030293/1138166371155451934/ezgif-5-15d373520c.gif)
+   ![GIF bordas da fase](../../../img/camera_loose.gif)
 
 5. Para resolver isso, definimos limites ao movimento da câmera, permiindo que ele se mova somente a partir de pontos específicos de x.
    - Nesse caso a câmera só irá mexer quando ela estiver entre a posição 0 e 50 de x.
@@ -84,7 +85,7 @@ A câmera continuará se movimentando onde quer que formos, podendo expor as par
    ```
 
 
-   ![GIF camera limitada](https://cdn.discordapp.com/attachments/1105270961391030293/1138169314051117167/ezgif-5-49fbdd9a31.gif)
+   ![GIF camera limitada](../../../img/camera_limited.gif)
 
 ## Adicionando obstáculos
 Com as mecânicas básicas de movimento feitas, agora você pode criar um nível símples como quiser!
@@ -94,12 +95,12 @@ Com as mecânicas básicas de movimento feitas, agora você pode criar um nível
 
 2. Adicione também um objeto, como uma moeda, para ser o objetivo da fase
 
-   ![Fase com obstáculos e objetivo](https://media.discordapp.net/attachments/1105270961391030293/1138173132260257873/image.png?width=962&height=213)
+   ![Fase com obstáculos e objetivo](https://media.discordapp.net/attachments/1105270961391030293/1138173132260257873/image.png)
 
 Você pode ter percebido que ao pular e colidir com o lado de um bloco, o jogador gruda e para de cair, isso é porque os colliders possuem atrito, que por padrão é bem alto
 
 
-   ![Atrito dos colliders](https://cdn.discordapp.com/attachments/1105270961391030293/1138174800209121400/ezgif-5-893fff0024.gif)
+   ![Atrito dos colliders](../../../img/player_stuck.gif)
 
 Para mudar o atrito, precisamos atribuir um novo material físico aos colliders
 
@@ -107,11 +108,11 @@ Para mudar o atrito, precisamos atribuir um novo material físico aos colliders
 4. Selecione o material recém criado e, no inspector, reduza o atrito para 0 (ou qualquer valor desejado)
 5. Na barra de pesquisa da aba de hierarquia, digite "t:collider2D", isso irá destacar na tela todos os objetos que possuem um collider
 
-   ![comando na barra de pesquisa ressaltando objetos com collider](https://cdn.discordapp.com/attachments/1105270961391030293/1138177172549423206/image.png)
+   ![comando na barra de pesquisa ressaltando objetos com collider](../../../img/collider2D.png)
 
 6. Selecione todos os objetos ressaltados (com excessão do player) e arraste o material criado até a caixa "Material" no componente Box Collider 2D
 
-   ![Material novo no componente](https://cdn.discordapp.com/attachments/1105270961391030293/1138178002275020930/image.png)
+   ![Material novo no componente](../../../img/boxcollider2D.png)
    
 
 ## Fim da fase
