@@ -9,10 +9,12 @@ date:   2024-01-04 12:00:00 -0300
 
   1. Crie um novo objeto e dê o sprite que quiser
   2. Adicione um Collider2D e customize o formato
+     
   ![Inimigo com collider](../../../img/inimigo_hitbox.png)
+
   Queremos que esse inimigo fique andando de um lado para o outro, se movendo até uma posição expecífica e trocando de direção	
-  3. Crie um novo script de movimentação para seu inimigo
-  4. Insira o seguinte código dentro de Update() (e defina a variável speed no início da classe)
+  4. Crie um novo script de movimentação para seu inimigo
+  5. Insira o seguinte código dentro de Update() (e defina a variável speed no início da classe)
   ```C#
   void Update()
   {
@@ -75,9 +77,10 @@ date:   2024-01-04 12:00:00 -0300
   Para isso, precisamos definir o que é um inimigo
 
   2. No inspector do inimigo, atribua a ele uma tag (pode ser a tag "Enemy" existente ou uma nova)
+
   ![Seletor de tags](../../../img/inimigo_tag.png)
 
-  3. No script do jogador, adicione o seguinte código dentro de OnCollisionEnter()
+  4. No script do jogador, adicione o seguinte código dentro de OnCollisionEnter()
   ```C#
   private void OnCollisionEnter2D(Collision2D other)
   {
@@ -104,17 +107,17 @@ date:   2024-01-04 12:00:00 -0300
   1. Crie um novo objeto UI > Canvas.
   2. Dê um clique duplo nesse novo objeto. Este vai ser o lugar onde você ira criar sua UI
 
-  ![Canvas](../../../img/image.png)
+  ![Canvas](../../../img/UI_tab.png)
 
   ⚠ Não se alarme pelo tamanho do canvas, não é necessário reduzí-lo
 
   3. Dentro do seu objeto canvas, crie um novo objeto UI > Text
   4. Edite o texto como quiser, a posição do texto no canvas equivalerá a sua posição na tela do jogador
-  ![texto no canvas](../../../img/image.png?width=1013&height=527)
+  ![texto no canvas](../../../img/UI_posicao.png)
 
   (Mudar as opções de Overflow vertical e horizontal para "overflow" pode facilitar)
 
-  ![ui no jogo](../../../img/142581361811660860/image.png)
+  ![ui no jogo](../../../img/UI_overflow.png)
 
 
   5. Dentro do script do jogador, nas primeiras linhas, insira o seguinte código
