@@ -121,7 +121,6 @@ Para oficializar que o player finalizou a fase, vamos fazer com que tocar na moe
 
 1. Adicione um collider 2D à moeda, de qualquer formato que quiser (tente modificar a propriedade "Edge Radius" do box collider para criar um quadrado com cantos redondos)
 2. Adicione também um script à moeda, dentro do qual adicionaremos o código que nos dá parabéns por alcançá-la
-
 Para detectar que tocamos na moeda, o Unity possui um método (Assim como Start() e Update()) que é chamado sempre que algo entra em contato com o collider do objeto
 
 3. Adicione o seguinte método ao script:
