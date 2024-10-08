@@ -9,7 +9,7 @@ date:   2024-01-04 12:00:00 -0300
 
   1. Crie um novo objeto e dê o sprite que quiser
   2. Adicione um Collider2D e customize o formato
-  ![Inimigo com collider](../../../img/inimigo_hitbox.webp)
+  ![Inimigo com collider](../../../img/inimigo_hitbox.png)
   Queremos que esse inimigo fique andando de um lado para o outro, se movendo até uma posição expecífica e trocando de direção	
   3. Crie um novo script de movimentação para seu inimigo
   4. Insira o seguinte código dentro de Update() (e defina a variável speed no início da classe)
@@ -60,7 +60,7 @@ date:   2024-01-04 12:00:00 -0300
 
   Se tudo der certo, o inimigo irá aparecer dentre os seus arquivos e o inimigo já existente ficará com texto azul
 
-  ![Criação de prefab](../../../img/inimigo_azul.webp)
+  ![Criação de prefab](../../../img/inimigo_azul.png)
   
 ### Dano
   Precisamos que os inimigos interajam com o jogador de alguma forma, a mais clássica sendo que eles dêem reduzam a vida do jogador
