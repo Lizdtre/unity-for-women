@@ -156,5 +156,5 @@ date:   2024-01-04 12:00:00 -0300
 
   Agora a vida no HUD irá atualizar sempre que o player tomar dano! (mas note que nada a impede de ficar negativa)
 
-  ![GIF inimigos dando dano e HUD](https://cdn.discordapp.com/attachments/1105270961391030293/1142607917581869206/level.gif)
+  ![GIF inimigos dando dano e HUD](../../../img/inimigos_dano.gif)
 
