@@ -9,7 +9,7 @@ date:   2024-01-04 12:00:00 -0300
 
   1. Crie um novo objeto e dê o sprite que quiser
   2. Adicione um Collider2D e customize o formato
-  ![Inimigo com collider](https://cdn.discordapp.com/attachments/1105270961391030293/1141479279109079193/image.png)
+  ![Inimigo com collider](../../../img/inimigo_hitbox.webp)
   Queremos que esse inimigo fique andando de um lado para o outro, se movendo até uma posição expecífica e trocando de direção	
   3. Crie um novo script de movimentação para seu inimigo
   4. Insira o seguinte código dentro de Update() (e defina a variável speed no início da classe)
@@ -60,7 +60,7 @@ date:   2024-01-04 12:00:00 -0300
 
   Se tudo der certo, o inimigo irá aparecer dentre os seus arquivos e o inimigo já existente ficará com texto azul
 
-  ![Criação de prefab](https://cdn.discordapp.com/attachments/1105270961391030293/1141494091641798718/image.png)
+  ![Criação de prefab](../../../img/inimigo_azul.webp)
   
 ### Dano
   Precisamos que os inimigos interajam com o jogador de alguma forma, a mais clássica sendo que eles dêem reduzam a vida do jogador
@@ -75,7 +75,7 @@ date:   2024-01-04 12:00:00 -0300
   Para isso, precisamos definir o que é um inimigo
 
   2. No inspector do inimigo, atribua a ele uma tag (pode ser a tag "Enemy" existente ou uma nova)
-  ![Seletor de tags](https://media.discordapp.net/attachments/1105270961391030293/1142572597205291078/image.png?width=316&height=360)
+  ![Seletor de tags](../../../img/inimigo_tag.png)
 
   3. No script do jogador, adicione o seguinte código dentro de OnCollisionEnter()
   ```C#
@@ -104,17 +104,17 @@ date:   2024-01-04 12:00:00 -0300
   1. Crie um novo objeto UI > Canvas.
   2. Dê um clique duplo nesse novo objeto. Este vai ser o lugar onde você ira criar sua UI
 
-  ![Canvas](https://media.discordapp.net/attachments/1105270961391030293/1142578845283799172/image.png?width=648&height=386)
+  ![Canvas](../../../img/image.png)
 
   ⚠ Não se alarme pelo tamanho do canvas, não é necessário reduzí-lo
 
   3. Dentro do seu objeto canvas, crie um novo objeto UI > Text
   4. Edite o texto como quiser, a posição do texto no canvas equivalerá a sua posição na tela do jogador
-  ![texto no canvas](https://media.discordapp.net/attachments/1105270961391030293/1142580437840056490/image.png?width=1013&height=527)
+  ![texto no canvas](../../../img/image.png?width=1013&height=527)
 
   (Mudar as opções de Overflow vertical e horizontal para "overflow" pode facilitar)
 
-  ![ui no jogo](https://cdn.discordapp.com/attachments/1105270961391030293/1142581361811660860/image.png)
+  ![ui no jogo](../../../img/142581361811660860/image.png)
 
 
   5. Dentro do script do jogador, nas primeiras linhas, insira o seguinte código
