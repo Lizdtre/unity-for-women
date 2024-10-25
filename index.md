@@ -1,8 +1,8 @@
 ---
-title: Welcome to my website
-feature_image: "https://picsum.photos/1300/400?image=989"
-feature_text: |
-  ## BOSS
+title: Unity For Women
+feature_image: "./img/banner.png"
 ---
 
-Unity for women
+[Gravações](https://www.youtube.com/playlist?list=PLFFHHqnY3q2FG-NgPTq3HX-m8kQAVDRIx)
+
+Após aprender os básicos do Unity, aprofunde seu conhecimento com [CoralQuest](https://laisczt.github.io/CoralQuest/)
